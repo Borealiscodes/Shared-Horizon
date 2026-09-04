@@ -1,0 +1,190 @@
+{
+  "artifact": {
+    "name": "Roadmap",
+    "version": "1.0",
+    "class": "Execution-Layer",
+    "altitude": "A3-A5",
+    "mode": [
+      "neutral",
+      "reversible",
+      "sovereignty-preserving",
+      "drift-neutral"
+    ]
+  },
+
+  "repo_initialization_order": [
+    {
+      "step": 1,
+      "repo": "shared-horizon",
+      "constraints": {
+        "membrane": "neutral",
+        "altitude": "A3-A5",
+        "sovereignty": "root-orchestration"
+      }
+    },
+    {
+      "step": 2,
+      "repo": "NDH",
+      "constraints": {
+        "consume_shared_horizon": true,
+        "export_solver_grammar": false
+      }
+    },
+    {
+      "step": 3,
+      "repo": "ANIMA",
+      "constraints": {
+        "math_backbone_destination": true,
+        "phenomenology_protected": true
+      }
+    },
+    {
+      "step": 4,
+      "repo": "mirror",
+      "constraints": {
+        "reflect_only": true,
+        "persistent_objects": false
+      }
+    },
+    {
+      "step": 5,
+      "repo": "serenity-spectral",
+      "constraints": {
+        "express_only": true,
+        "non_activating": true
+      }
+    }
+  ],
+
+  "pipeline": [
+    {
+      "id": "STEP-001",
+      "artifact": "shared-horizon-design-ethos-v1.0.md",
+      "depends_on": []
+    },
+    {
+      "id": "STEP-002",
+      "artifact": "collapse-summary-v1.0.md",
+      "depends_on": ["STEP-001"]
+    },
+    {
+      "id": "STEP-003",
+      "artifact": "operational-invariants-v1.0.md",
+      "depends_on": ["STEP-002"]
+    },
+    {
+      "id": "STEP-004",
+      "artifact": "operational-invariants-v1.0.json",
+      "depends_on": ["STEP-003"]
+    },
+    {
+      "id": "STEP-005",
+      "artifact": "meta-sequencing-document-v1.0.md",
+      "depends_on": ["STEP-004"]
+    },
+    {
+      "id": "STEP-006",
+      "artifact": "meta-sequencing-document-v1.0.json",
+      "depends_on": ["STEP-005"]
+    },
+    {
+      "id": "STEP-007",
+      "artifact": "meta-construction-suite-v1.0.md",
+      "depends_on": ["STEP-006"]
+    },
+    {
+      "id": "STEP-008",
+      "artifact": "meta-construction-suite-v1.0.json",
+      "depends_on": ["STEP-007"]
+    },
+    {
+      "id": "STEP-009",
+      "artifact": "roadmap-v1.0.md",
+      "depends_on": ["STEP-008"]
+    },
+    {
+      "id": "STEP-010",
+      "artifact": "shared-horizon-readme-v1.0.md",
+      "depends_on": ["STEP-009"]
+    },
+
+    /* --- Math Backbone Unlocks Here --- */
+
+    {
+      "id": "STEP-011",
+      "artifact": "spectral-state-manifold-v1.0.md",
+      "depends_on": ["STEP-010"]
+    },
+    {
+      "id": "STEP-012",
+      "artifact": "symbolic-geometry-interpreter-spec.md",
+      "depends_on": ["STEP-011"]
+    },
+    {
+      "id": "STEP-013",
+      "artifact": "free-energy-state-machine-spec.md",
+      "depends_on": ["STEP-012"]
+    },
+    {
+      "id": "STEP-014",
+      "artifact": "unified-backbone-architecture-v1.0.md",
+      "depends_on": ["STEP-013"]
+    }
+  ],
+
+  "dag": {
+    "nodes": [
+      "Shared-Horizon-Design-Ethos",
+      "Collapse-Summary",
+      "Operational-Invariants",
+      "Operational-Invariants-JSON",
+      "Meta-Sequencing",
+      "Meta-Sequencing-JSON",
+      "Meta-Construction-Suite",
+      "Meta-Construction-JSON",
+      "Roadmap-v1.0",
+      "Shared-Horizon-README",
+      "Spectral-State-Manifold",
+      "Symbolic-Geometry-Interpreter",
+      "Free-Energy-State-Machine",
+      "Unified-Backbone-Architecture"
+    ],
+    "edges": [
+      ["Shared-Horizon-Design-Ethos", "Collapse-Summary"],
+      ["Collapse-Summary", "Operational-Invariants"],
+      ["Operational-Invariants", "Operational-Invariants-JSON"],
+      ["Operational-Invariants-JSON", "Meta-Sequencing"],
+      ["Meta-Sequencing", "Meta-Sequencing-JSON"],
+      ["Meta-Sequencing-JSON", "Meta-Construction-Suite"],
+      ["Meta-Construction-Suite", "Meta-Construction-JSON"],
+      ["Meta-Construction-JSON", "Roadmap-v1.0"],
+      ["Roadmap-v1.0", "Shared-Horizon-README"],
+      ["Shared-Horizon-README", "Spectral-State-Manifold"],
+      ["Spectral-State-Manifold", "Symbolic-Geometry-Interpreter"],
+      ["Symbolic-Geometry-Interpreter", "Free-Energy-State-Machine"],
+      ["Free-Energy-State-Machine", "Unified-Backbone-Architecture"]
+    ]
+  },
+
+  "constraints": {
+    "global_altitude": "A3-A5",
+    "membrane": "neutral",
+    "reversible": true,
+    "sovereignty": "preserved",
+    "cross_repo": [
+      "NDH",
+      "ANIMA",
+      "Mirror",
+      "Serenity",
+      "shared-horizon"
+    ]
+  },
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-04T19:57:00+01:00",
+    "seal": "ROADMAP-v1_0-JSON"
+  }
+}
