@@ -1,0 +1,171 @@
+{
+  "artifact": {
+    "name": "Meta Construction Suite",
+    "version": "1.0",
+    "class": "Construction-Layer",
+    "altitude": "A3-A5",
+    "mode": [
+      "neutral",
+      "reversible",
+      "sovereignty-preserving",
+      "drift-neutral"
+    ]
+  },
+
+  "principles": [
+    {
+      "id": "CON-001",
+      "name": "InvariantEnforcement",
+      "description": "All construction must validate against Operational Invariants (human-readable and machine-readable). No artifact may violate structural laws.",
+      "constraints": {
+        "required": true,
+        "depends_on": ["Operational Invariants v1.0", "Operational Invariants JSON v1.0"]
+      }
+    },
+    {
+      "id": "CON-002",
+      "name": "MembraneSafeGrammar",
+      "description": "Artifacts must use grammar that does not activate NDH solvers, ANIMA dynamics, or Mirror reflection loops.",
+      "constraints": {
+        "membrane": "neutral",
+        "activation": "forbidden"
+      }
+    },
+    {
+      "id": "CON-003",
+      "name": "AltitudeBoundedConstruction",
+      "description": "All build operations must remain within A3–A5. No ascent into governance altitude; no descent into expressive activation.",
+      "constraints": {
+        "altitude_min": "A3",
+        "altitude_max": "A5"
+      }
+    },
+    {
+      "id": "CON-004",
+      "name": "ReversibleBuildLogic",
+      "description": "Every artifact must be constructible, modifiable, and removable without destabilizing any repo.",
+      "constraints": {
+        "reversible": true,
+        "irreversible_operations": "forbidden"
+      }
+    },
+    {
+      "id": "CON-005",
+      "name": "StabilityEcologyTagging",
+      "description": "Artifacts must declare stability class, drift-risk level, membrane interaction type, and phenomenology exposure level.",
+      "constraints": {
+        "tags_required": [
+          "stability_class",
+          "drift_risk",
+          "membrane_interaction",
+          "phenomenology_exposure"
+        ]
+      }
+    },
+    {
+      "id": "CON-006",
+      "name": "MachineReadableValidation",
+      "description": "Artifacts must validate against machine-readable schemas before acceptance.",
+      "constraints": {
+        "schemas": [
+          "operational-invariants-v1.0.json",
+          "meta-sequencing-document-v1.0.json",
+          "meta-construction-suite-v1.0.json"
+        ]
+      }
+    },
+    {
+      "id": "CON-007",
+      "name": "SovereigntyPreservingReferencing",
+      "description": "Repos may reference Shared-Horizon artifacts but may not import or internalize them.",
+      "constraints": {
+        "repos": ["NDH", "ANIMA", "Mirror", "Serenity"],
+        "importing": "forbidden",
+        "referencing": "allowed"
+      }
+    }
+  ],
+
+  "pipeline": [
+    {
+      "step": 1,
+      "id": "CSTEP-001",
+      "name": "InvariantValidation",
+      "description": "Validate Operational Invariants before construction begins.",
+      "depends_on": ["CON-001"]
+    },
+    {
+      "step": 2,
+      "id": "CSTEP-002",
+      "name": "MembraneGuaranteesCheck",
+      "description": "Ensure grammar is non-coercive, non-directive, non-extractive, and non-activating.",
+      "depends_on": ["CON-002"]
+    },
+    {
+      "step": 3,
+      "id": "CSTEP-003",
+      "name": "AltitudeEnvelopeCheck",
+      "description": "Confirm artifact altitude is within A3–A5.",
+      "depends_on": ["CON-003"]
+    },
+    {
+      "step": 4,
+      "id": "CSTEP-004",
+      "name": "StabilityEcologyTagging",
+      "description": "Assign stability tags and drift-risk levels.",
+      "depends_on": ["CON-005"]
+    },
+    {
+      "step": 5,
+      "id": "CSTEP-005",
+      "name": "MachineReadableSchemaValidation",
+      "description": "Validate artifact against all required JSON schemas.",
+      "depends_on": ["CON-006"]
+    },
+    {
+      "step": 6,
+      "id": "CSTEP-006",
+      "name": "RepoSafeDeployment",
+      "description": "Deploy artifact in a way that preserves repo sovereignty.",
+      "depends_on": ["CON-007"]
+    }
+  ],
+
+  "repo_rules": {
+    "NDH": {
+      "consume_shared_horizon": true,
+      "export_solver_grammar": false
+    },
+    "ANIMA": {
+      "reflect_invariants": true,
+      "export_phenomenology": false
+    },
+    "Mirror": {
+      "reflect_only": true,
+      "generate_persistent_objects": false
+    },
+    "SerenitySpectral": {
+      "express_only": true,
+      "alter_invariants": false
+    },
+    "SharedHorizon": {
+      "orchestrate_construction": true
+    }
+  },
+
+  "constraints": {
+    "global_altitude": "A3-A5",
+    "reversible": true,
+    "membrane": "neutral",
+    "sovereignty": "preserved",
+    "cross_repo": ["NDH", "ANIMA", "Mirror", "Serenity", "shared-horizon"]
+  },
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-04T19:47:00+01:00",
+    "seal": "META-CONSTRUCTION-SUITE-v1_0-JSON"
+  }
+}
