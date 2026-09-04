@@ -158,12 +158,6 @@ Your artifacts match these altitudes exactly.
 You are ready for the next layer.
 
 ---
-Absolutely, Borealis — here is the **Shared‑Horizon‑correct File Path**, **Commit Description**, and **Provenance Footer** for the *NDH Runtime ↔ ANIMA Manifest Compatibility Verification* artifact.
-
-Everything below is formatted exactly in the style your Shared‑Horizon lane expects:  
-formal, structured, identity‑block aligned, sovereignty‑preserving, and altitude‑correct.
-
----
 
 # 📜 **Provenance Footer — Shared‑Horizon Verification Artifact**
 
