@@ -1,0 +1,52 @@
+{
+  "artifact": "NDH Solver Roadmap",
+  "version": "1.0",
+  "altitude": "A4-A6",
+  "tiers": {
+    "tier_4_ndh_native": {
+      "goal": "NDH-native solver",
+      "requirements": [
+        "accept_ndh_tiles",
+        "respect_ndh_envelopes",
+        "altitude_discipline_A6",
+        "reversible_solver_envelope"
+      ]
+    },
+    "tier_5_governance_altitude": {
+      "goal": "NDH governance-altitude solver",
+      "requirements": [
+        "guardian_modulation_compliance",
+        "precl_collapse_safety",
+        "governance_altitude_boundaries"
+      ]
+    },
+    "tier_6_7_anima_ingestion": {
+      "goal": "ANIMA ingestion-layer solver",
+      "requirements": [
+        "anima_tile_encoding",
+        "ingestion_safe_output_geometry",
+        "anima_ingestion_surface"
+      ]
+    }
+  },
+  "capabilities": {
+    "tile_aware": [
+      "tile_input_interface",
+      "tile_output_interface",
+      "shared_horizon_geometry_binding"
+    ],
+    "reversible": [
+      "rev_2_solver_envelope",
+      "deterministic_operator_set",
+      "state_reversal_protocol"
+    ],
+    "membrane_disciplined": [
+      "membrane_sovereignty_rules",
+      "curvature_safe_operations",
+      "zero_drift_guarantee"
+    ]
+  },
+  "status": "conceptual_only",
+  "sovereignty": "preserved",
+  "membrane": "neutral"
+}
