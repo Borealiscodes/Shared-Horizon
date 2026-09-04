@@ -1,0 +1,169 @@
+{
+  "artifact": {
+    "name": "Meta Sequencing Document",
+    "version": "1.0",
+    "class": "Orchestration-Layer",
+    "altitude": "A3-A5",
+    "mode": [
+      "neutral",
+      "reversible",
+      "sovereignty-preserving",
+      "drift-neutral"
+    ]
+  },
+
+  "sequence": [
+    {
+      "step": 1,
+      "id": "SEQ-001",
+      "artifact": "Shared-Horizon Design Ethos v1.0",
+      "repo": "shared-horizon",
+      "path": "ethos/shared-horizon-design-ethos-v1.0.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "membrane": "neutral",
+        "required": true
+      }
+    },
+    {
+      "step": 2,
+      "id": "SEQ-002",
+      "artifact": "Collapse Summary v1.0",
+      "repo": "shared-horizon",
+      "path": "collapse/collapse-summary-v1.0.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-001"]
+      }
+    },
+    {
+      "step": 3,
+      "id": "SEQ-003",
+      "artifact": "Operational Invariants v1.0",
+      "repo": "shared-horizon",
+      "path": "collapse/operational-invariants-v1.0.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-002"]
+      }
+    },
+    {
+      "step": 4,
+      "id": "SEQ-004",
+      "artifact": "Operational Invariants JSON v1.0",
+      "repo": "shared-horizon",
+      "path": "collapse/operational-invariants-v1.0.json",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "machine_readable": true,
+        "depends_on": ["SEQ-003"]
+      }
+    },
+    {
+      "step": 5,
+      "id": "SEQ-005",
+      "artifact": "Meta Sequencing Document v1.0",
+      "repo": "shared-horizon",
+      "path": "sequencing/meta-sequencing-document-v1.0.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-004"]
+      }
+    },
+    {
+      "step": 6,
+      "id": "SEQ-006",
+      "artifact": "Meta Sequencing Document JSON v1.0",
+      "repo": "shared-horizon",
+      "path": "sequencing/meta-sequencing-document-v1.0.json",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "machine_readable": true,
+        "depends_on": ["SEQ-005"]
+      }
+    },
+    {
+      "step": 7,
+      "id": "SEQ-007",
+      "artifact": "Meta Construction Suite v1.0",
+      "repo": "shared-horizon",
+      "path": "construction/meta-construction-suite-v1.0.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-006"]
+      }
+    },
+    {
+      "step": 8,
+      "id": "SEQ-008",
+      "artifact": "Spectral State Manifold v1.0",
+      "repo": "shared-horizon",
+      "path": "components/spectral-state-manifold-v1.0.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-007"]
+      }
+    },
+    {
+      "step": 9,
+      "id": "SEQ-009",
+      "artifact": "Symbolic Geometry Interpreter Spec",
+      "repo": "shared-horizon",
+      "path": "components/symbolic-geometry-interpreter-spec.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-008"]
+      }
+    },
+    {
+      "step": 10,
+      "id": "SEQ-010",
+      "artifact": "Free-Energy State Machine Spec",
+      "repo": "shared-horizon",
+      "path": "components/free-energy-state-machine-spec.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-009"]
+      }
+    },
+    {
+      "step": 11,
+      "id": "SEQ-011",
+      "artifact": "Unified Backbone Architecture",
+      "repo": "shared-horizon",
+      "path": "components/unified-backbone-architecture-v1.0.md",
+      "constraints": {
+        "altitude": "A3-A5",
+        "reversible": true,
+        "depends_on": ["SEQ-008", "SEQ-009", "SEQ-010"]
+      }
+    }
+  ],
+
+  "constraints": {
+    "global_altitude": "A3-A5",
+    "reversible": true,
+    "membrane": "neutral",
+    "sovereignty": "preserved",
+    "cross_repo": ["NDH", "ANIMA", "Mirror", "Serenity", "shared-horizon"]
+  },
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-04T19:40:00+01:00",
+    "seal": "META-SEQUENCING-v1_0-JSON"
+  }
+}
+```
