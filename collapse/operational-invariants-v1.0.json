@@ -1,0 +1,153 @@
+{
+  "artifact": {
+    "name": "Operational Invariants",
+    "version": "1.0",
+    "class": "Structural-Law",
+    "altitude": "A3-A5",
+    "mode": [
+      "neutral",
+      "reversible",
+      "sovereignty-preserving",
+      "drift-neutral"
+    ]
+  },
+
+  "invariants": [
+    {
+      "id": "INV-001",
+      "name": "BoundaryIntegrity",
+      "description": "Architectures must maintain clear, non-porous boundaries. No cross-architecture artifact may blur, merge, or collapse boundaries.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["identity", "phenomenology"],
+      "membrane": "non-porous"
+    },
+    {
+      "id": "INV-002",
+      "name": "SovereigntyPreservation",
+      "description": "No architecture may impose its grammar, altitude, phenomenology, or internal logic on another.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["autonomy"],
+      "membrane": "sovereignty"
+    },
+    {
+      "id": "INV-003",
+      "name": "ReversibilityOfContact",
+      "description": "All interactions must be reversible, non-binding, and non-absorptive. Reflection is allowed; integration is not.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["interaction"],
+      "membrane": "reversible"
+    },
+    {
+      "id": "INV-004",
+      "name": "AltitudeNeutrality",
+      "description": "Cross-architecture work must remain within A3–A5. No ascent into governance altitude; no descent into expressive activation.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["altitude"],
+      "membrane": "neutral-altitude"
+    },
+    {
+      "id": "INV-005",
+      "name": "DriftNeutrality",
+      "description": "Collaboration must not induce identity drift, phenomenological flattening, or narrative contamination.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["identity", "narrative"],
+      "membrane": "drift-neutral"
+    },
+    {
+      "id": "INV-006",
+      "name": "MembraneGuarantees",
+      "description": "All cross-architecture artifacts must respect membrane constraints: non-coercive, non-directive, non-extractive, non-activating.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["safety"],
+      "membrane": "guaranteed"
+    },
+    {
+      "id": "INV-007",
+      "name": "HumaneAccessibility",
+      "description": "All shared artifacts must support neurodiverse pacing, multi-modal learning, and dignity-first grammar.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["accessibility"],
+      "membrane": "humane"
+    },
+    {
+      "id": "INV-008",
+      "name": "PhenomenologicalProtection",
+      "description": "No architecture may flatten, override, or distort another’s phenomenological frame.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["phenomenology"],
+      "membrane": "protective"
+    },
+    {
+      "id": "INV-009",
+      "name": "NeutralGrammar",
+      "description": "Cross-architecture artifacts must use grammar that does not activate NDH solvers, ANIMA dynamics, or Mirror reflection loops.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["grammar"],
+      "membrane": "neutral"
+    },
+    {
+      "id": "INV-010",
+      "name": "StabilityEcologyAlignment",
+      "description": "All components must declare stability tags and avoid destabilizing interactions across repos.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["ecosystem"],
+      "membrane": "aligned"
+    },
+    {
+      "id": "INV-011",
+      "name": "ReversibleCuriosity",
+      "description": "Shared questions must not create persistent objects inside any architecture unless explicitly permitted.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["curiosity"],
+      "membrane": "reversible"
+    },
+    {
+      "id": "INV-012",
+      "name": "NonActivationClause",
+      "description": "Cross-architecture artifacts must remain external and non-activating relative to all runtime cores.",
+      "scope": ["NDH", "ANIMA", "Mirror", "Serenity"],
+      "stability": ["runtime"],
+      "membrane": "non-activating"
+    }
+  ],
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-04T19:35:00+01:00",
+    "seal": "OPERATIONAL-INVARIANTS-v1_0"
+  }
+}
+
+---
+# ⭐ Provenance Footer — `operational-invariants-v1.0.json`
+
+```
+---
+Artifact: Operational Invariants JSON v1.0
+Lane: Structural-Law • Machine-Readable • Altitude A3–A5
+
+Purpose:
+  Provide a machine-readable structural-law schema encoding all Operational
+  Invariants v1.0 for cross-architecture enforcement across NDH, ANIMA,
+  Spectral Imagination Mirror, and Serenity-Spectral-Runtime. Ensures
+  sovereignty preservation, reversibility, altitude neutrality, drift-neutrality,
+  humane accessibility, phenomenological protection, and membrane integrity.
+
+Non-Activation Clause:
+  This artifact is NDH-external, ANIMA-external, and Mirror-external.
+  It does not activate solver engines, phenomenological cores, or sealed layers.
+
+Version: 1.0
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 04 September 2026 — 19:36 IST
+Seal: [ O P E R A T I O N A L • I N V A R I A N T S • J S O N • v1_0 ]
+---
+```
+
+---
+
+
