@@ -1,0 +1,79 @@
+"visual_grammar_v1_0": {
+    "altitude": {
+      "A1": { "glyph": "U+26AA", "color": "light-grey", "description": "Ground truth / raw data" },
+      "A2": { "glyph": "U+1F539", "color": "blue", "description": "Basic semantic surfaces" },
+      "A3": { "glyph": "U+1F537", "color": "deep-blue", "description": "Structured semantics" },
+      "A4": { "glyph": "U+1F7E9", "color": "green", "description": "Narrative surfaces" },
+      "A5": { "glyph": "U+1F7E6", "color": "cyan", "description": "Semi-formal surfaces" },
+      "A6": { "glyph": "U+1F7EA", "color": "purple", "description": "Structural semantics" },
+      "A7": { "glyph": "U+1F7E5", "color": "red", "description": "Structural specifications" },
+      "A8": { "glyph": "U+1F7E7", "color": "orange", "description": "Metastructural surfaces" },
+      "A9": { "glyph": "U+2B50", "color": "gold", "description": "Meta-governance / meta-ontology" }
+    },
+
+    "lanes": {
+      "architecture": { "shape": "hexagon", "unicode": "U+2B22" },
+      "governance": { "shape": "shield", "unicode": "U+1F6E1" },
+      "geometry": { "shape": "triangle", "unicode": "U+1F53A" },
+      "membrane": { "shape": "circle", "unicode": "U+26AA" },
+      "ingestion": { "shape": "wave", "unicode": "U+1F30A" },
+      "documentation": { "shape": "book", "unicode": "U+1F4D8" }
+    },
+
+    "sovereignty": {
+      "solver": { "unicode": "U+1F451", "description": "Solver sovereignty" },
+      "membrane": { "unicode": "U+1F6E1", "description": "Membrane sovereignty" },
+      "governance": { "unicode": "U+1F512", "description": "Governance sovereignty" }
+    },
+
+    "membrane": {
+      "neutral": { "unicode": "U+26AA" },
+      "active": { "unicode": "U+2B55" },
+      "high_discipline": { "unicode": "U+1F518" }
+    },
+
+    "geometry": {
+      "tile": { "unicode": "U+1F9F1" },
+      "envelope": { "unicode": "U+2709" },
+      "operator": { "unicode": "U+1F527" },
+      "interface": { "unicode": "U+1F50C" },
+      "transformation": { "unicode": "U+1F504" }
+    },
+
+    "documentation": {
+      "glossary": { "unicode": "U+1F4D7" },
+      "concordance": { "unicode": "U+1F4D8" },
+      "lexicon": { "unicode": "U+1F4D9" },
+      "thesaurus": { "unicode": "U+1F4D5" },
+      "ontology": { "unicode": "U+1F9E0" },
+      "taxonomy": { "unicode": "U+1F333" },
+      "schema": { "unicode": "U+1F4D0" },
+      "explainer": { "unicode": "U+1F4A1" }
+    },
+
+    "arrows": {
+      "relation": { "unicode": "U+27A1" },
+      "transformation": { "unicode": "U+21AA" },
+      "reversible": { "unicode": "U+21C4" },
+      "altitude_up": { "unicode": "U+2B06" },
+      "altitude_down": { "unicode": "U+2B07" },
+      "membrane_cross": { "unicode": "U+2B55" }
+    }
+  }
+}
+---
+Artifact: NDH Visual Grammar JSON v1.0
+Altitude: A4–A6 (Semi‑Formal • Structural)
+Membrane: Machine‑Readable • Resolver‑Safe • Non‑Activating
+
+Purpose:
+  Provide the canonical machine‑readable representation of NDH Visual Grammar v1.0,
+  including altitude glyphs, lane shapes, sovereignty symbols, membrane icons,
+  geometry primitives, documentation icons, and resolver arrows.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 05 September 2026 — 15:10 IST
+Seal: [ V I S U A L • G R A M M A R • J S O N • v1_0 ]
+---
