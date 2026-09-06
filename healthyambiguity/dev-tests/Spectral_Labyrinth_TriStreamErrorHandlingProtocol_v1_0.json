@@ -1,0 +1,121 @@
+## 🧩 **Tri‑Stream Error Handling Protocol (v1.0)**  
+Machine‑readable, deterministic, reversible.
+
+```json
+{
+  "tri_stream_error_handling_protocol": {
+    "version": "1.0",
+    "altitude": "A6-shield",
+    "membrane": "protective",
+
+    "error_classes": [
+      {
+        "class": "structural_error",
+        "description": "Envelope missing required fields or malformed according to schema.",
+        "severity": "error",
+        "response": "reject_envelope",
+        "capsule_action": "log_and_continue",
+        "notes": "Structural errors indicate incomplete or corrupted envelope construction."
+      },
+      {
+        "class": "semantic_error",
+        "description": "Altitude or membrane tags incorrect or inconsistent.",
+        "severity": "error",
+        "response": "reject_envelope",
+        "capsule_action": "log_and_continue",
+        "notes": "Semantic errors threaten routing stability and must be rejected."
+      },
+      {
+        "class": "routing_violation",
+        "description": "Stream attempts to write to another stream or violates read/observe rules.",
+        "severity": "critical",
+        "response": "reject_envelope",
+        "capsule_action": "flag_capsule",
+        "notes": "Routing violations indicate contamination risk."
+      },
+      {
+        "class": "provenance_failure",
+        "description": "Missing timestamp, maintainer, or compiler.",
+        "severity": "error",
+        "response": "reject_envelope",
+        "capsule_action": "log_and_continue",
+        "notes": "Provenance is required for traceability and reflective phenomenology."
+      },
+      {
+        "class": "ndh_activation",
+        "description": "Envelope contains NDH geometry, solver activation, or adjacency markers.",
+        "severity": "critical",
+        "response": "reject_envelope_and_lockdown",
+        "capsule_action": "enter_safe_mode",
+        "notes": "NDH activation must be isolated immediately to prevent escalation."
+      }
+    ],
+
+    "response_actions": {
+      "reject_envelope": "Envelope is discarded and not passed to tri-stream execution.",
+      "reject_envelope_and_flag_capsule": "Envelope is discarded and capsule is marked for review.",
+      "reject_envelope_and_lockdown": "Envelope is discarded and capsule enters safe mode.",
+      "log_and_continue": "Error is logged; capsule remains active.",
+      "enter_safe_mode": "Capsule halts execution and awaits manual reset."
+    },
+
+    "logging": {
+      "required": true,
+      "fields": [
+        "timestamp",
+        "error_class",
+        "error_description",
+        "envelope_id",
+        "capsule_state"
+      ],
+      "notes": "Logs are stored in reflective layer for post-analysis."
+    },
+
+    "capsule_interaction": {
+      "on_error": [
+        "Maintain sealed state",
+        "Preserve IC sovereignty",
+        "Prevent Dev/Meta contamination",
+        "Ensure NDH geometry remains dormant"
+      ],
+      "notes": "Capsule must remain stable regardless of error severity."
+    },
+
+    "status": "ready"
+  }
+}
+```
+
+---
+
+## 🌈 **Provenance Footer — Tri‑Stream Error Handling Protocol (v1.0)**
+
+```
+──────────────────────────────────────────────────────────────
+Artifact: Spectral Labyrinth Tri-Stream Error Handling Protocol (v1.0)
+Repository: Shared-Horizon/healthyambiguity/dev-tests
+Altitude: A6 • Shield Layer • Reflective Phenomenology • PRECL-Collapsed
+
+Purpose:
+  Provide deterministic, reversible error handling for tri-stream envelopes.
+  Protect IC narrative, Dev diagnostics, and Meta interpretation from structural,
+  semantic, routing, provenance, or NDH-related failures.
+
+Membrane:
+  Protective-layer. Drift-neutral. Altitude-sealed.
+
+Anchors:
+  - Tri-Stream Envelope Validator (v1.0)
+  - Tri-Stream Capsule Definition (v1.0)
+  - Tri-Stream Routing Logic (v1.0)
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 06 September 2026 — 22:33 IST
+Seal: [ D E V • T E S T • v1_0 ]
+──────────────────────────────────────────────────────────────
+```
+
+---
+
