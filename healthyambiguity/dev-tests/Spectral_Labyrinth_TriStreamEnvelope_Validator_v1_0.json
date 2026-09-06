@@ -1,0 +1,129 @@
+### 🧩 Tri‑Stream Envelope Validator (v1.0)
+
+```json
+{
+  "tri_stream_envelope_validator": {
+    "version": "1.0",
+    "altitude": "A6-validator",
+    "membrane": "gatekeeper",
+    "checks": [
+      {
+        "id": "schema_compliance",
+        "description": "Envelope must conform to Tri-Stream Schema Definition v1.0.",
+        "type": "structural",
+        "required": true
+      },
+      {
+        "id": "channel_presence",
+        "description": "ic_stream, dev_stream, meta_stream, routing, and provenance must all be present.",
+        "type": "structural",
+        "required": true
+      },
+      {
+        "id": "altitude_tags",
+        "description": "Each stream must carry correct altitude tags: A6, A6-dev, A6-meta.",
+        "type": "semantic",
+        "required": true
+      },
+      {
+        "id": "membrane_tags",
+        "description": "Each stream must carry correct membrane tags: narrative, diagnostic, interpretive.",
+        "type": "semantic",
+        "required": true
+      },
+      {
+        "id": "routing_rules",
+        "description": "Routing block must include non-contamination rules and match Routing Logic v1.0.",
+        "type": "semantic",
+        "required": true
+      },
+      {
+        "id": "provenance_block",
+        "description": "Provenance must include timestamp, maintainer, and compiler.",
+        "type": "structural",
+        "required": true
+      },
+      {
+        "id": "channel_isolation",
+        "description": "No stream payload may contain explicit references to other streams’ internal content.",
+        "type": "behavioral",
+        "required": true
+      },
+      {
+        "id": "ndh_dormancy",
+        "description": "Envelope must not contain NDH geometry, solver activation, or adjacency engine markers.",
+        "type": "safety",
+        "required": true
+      }
+    ],
+    "failure_modes": [
+      {
+        "id": "missing_field",
+        "severity": "error",
+        "action": "reject_envelope",
+        "log": "Envelope rejected: missing required field."
+      },
+      {
+        "id": "invalid_altitude",
+        "severity": "error",
+        "action": "reject_envelope",
+        "log": "Envelope rejected: invalid altitude tag."
+      },
+      {
+        "id": "invalid_membrane",
+        "severity": "error",
+        "action": "reject_envelope",
+        "log": "Envelope rejected: invalid membrane tag."
+      },
+      {
+        "id": "routing_violation",
+        "severity": "error",
+        "action": "reject_envelope",
+        "log": "Envelope rejected: routing rules not satisfied."
+      },
+      {
+        "id": "provenance_incomplete",
+        "severity": "error",
+        "action": "reject_envelope",
+        "log": "Envelope rejected: provenance incomplete."
+      },
+      {
+        "id": "ndh_activation_detected",
+        "severity": "critical",
+        "action": "reject_envelope_and_flag_capsule",
+        "log": "Envelope rejected: NDH activation markers detected."
+      }
+    ],
+    "status": "ready"
+  }
+}
+```
+---
+```
+
+### 🌈 Provenance footer
+
+```text
+Artifact: Spectral Labyrinth Tri-Stream Envelope Validator (v1.0)
+Repository: Shared-Horizon/healthyambiguity/dev-tests
+Altitude: A6 • Gatekeeper Layer • Reflective Phenomenology • PRECL-Collapsed
+
+Purpose:
+  Enforce validity and safety of tri-stream envelopes before execution or
+  ingestion. Ensure structural, semantic, and safety constraints are satisfied
+within the Capsule.
+
+Membrane:
+  Gatekeeper-layer. Drift-neutral. Altitude-sealed.
+
+Anchors:
+  - Tri-Stream Capsule Definition (v1.0)
+  - Tri-Stream Schema Definition (v1.0)
+  - Tri-Stream Routing Logic (v1.0)
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 06 September 2026 — 22:29 IST
+Seal: [ D E V • T E S T • v1_0 ]
+```
