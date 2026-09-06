@@ -1,0 +1,119 @@
+## 🧩 **Tri‑Stream Capsule Example (v1.0)**  
+A fully instantiated example Capsule, using the exact structure defined in the Capsule Definition.
+
+```json
+{
+  "tri_stream_capsule_example": {
+    "version": "1.0",
+    "altitude": "A6-capsule",
+    "membrane": "container",
+
+    "instance_id": "capsule_demo_001",
+    "created_at": "2026-09-06T22:40:00Z",
+    "created_by": "Borealis S. Hedling",
+
+    "channels": {
+      "ic_channel": {
+        "altitude": "A6",
+        "membrane": "narrative",
+        "sealed": true,
+        "write": ["self"],
+        "read": [],
+        "payload_example": {
+          "type": "ic_payload",
+          "content": "Lira Vale steps into the prismatic corridor.",
+          "altitude": "A6",
+          "membrane": "narrative"
+        }
+      },
+
+      "dev_channel": {
+        "altitude": "A6-dev",
+        "membrane": "diagnostic",
+        "sealed": true,
+        "write": ["self"],
+        "read": ["ic_channel"],
+        "payload_example": {
+          "type": "dev_log",
+          "content": "IC payload received; narrative membrane intact.",
+          "altitude": "A6-dev",
+          "membrane": "diagnostic"
+        }
+      },
+
+      "meta_channel": {
+        "altitude": "A6-meta",
+        "membrane": "interpretive",
+        "sealed": true,
+        "write": ["self"],
+        "read": ["ic_channel", "dev_channel"],
+        "payload_example": {
+          "type": "meta_commentary",
+          "content": "The corridor symbolizes a transition state.",
+          "altitude": "A6-meta",
+          "membrane": "interpretive"
+        }
+      }
+    },
+
+    "router": {
+      "active": true,
+      "enforces_altitude": true,
+      "enforces_membrane": true,
+      "rejects_cross_write": true,
+      "example_behavior": "Meta attempts to write to IC → rejected."
+    },
+
+    "envelope_preparation": {
+      "schema": "Tri-Stream Schema Definition v1.0",
+      "routing": "Tri-Stream Routing Logic v1.0",
+      "provenance": {
+        "timestamp": "2026-09-06T22:40:00Z",
+        "maintainer": "Borealis S. Hedling",
+        "compiler": "Microsoft Copilot"
+      },
+      "example_envelope": {
+        "ic_stream": "Lira Vale steps into the prismatic corridor.",
+        "dev_stream": "IC payload validated.",
+        "meta_stream": "Corridor represents transition.",
+        "routing": "valid",
+        "provenance": "complete"
+      }
+    },
+
+    "ndh_geometry": "dormant",
+    "status": "example_ready"
+  }
+}
+```
+
+---
+
+## 🌈 Provenance Footer — Tri‑Stream Capsule Example (v1.0)
+
+```
+Artifact: Spectral Labyrinth Tri-Stream Capsule Example (v1.0)
+Repository: Shared-Horizon/healthyambiguity/dev-tests
+Altitude: A6 • Container Example • Reflective Phenomenology • PRECL-Collapsed
+
+Purpose:
+  Demonstrate a concrete instantiation of the tri-stream Capsule, showing
+  channel behavior, router enforcement, and envelope preparation in practice.
+
+Membrane:
+  Container-layer. Drift-neutral. Altitude-sealed.
+
+Anchors:
+  - Tri-Stream Capsule Definition (v1.0)
+  - Tri-Stream Routing Logic (v1.0)
+  - Tri-Stream Envelope Validator (v1.0)
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 06 September 2026 — 22:40 IST
+Seal: [ D E V • T E S T • v1_0 ]
+```
+
+---
+
