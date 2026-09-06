@@ -1,0 +1,67 @@
+### 🧩 Tri‑Stream Routing Logic (v1.0)
+
+```json
+{
+  "routing_logic": {
+    "version": "1.0",
+    "channels": {
+      "ic_stream": {
+        "altitude": "A6",
+        "membrane": "narrative",
+        "can_read": [],
+        "can_write": ["self"],
+        "can_be_observed_by": ["dev_stream", "meta_stream"],
+        "notes": "Primary story channel. Untouchable by dev/meta. Sovereign."
+      },
+      "dev_stream": {
+        "altitude": "A6-dev",
+        "membrane": "diagnostic",
+        "can_read": ["ic_stream"],
+        "can_write": ["self"],
+        "can_be_observed_by": ["meta_stream"],
+        "notes": "Observes IC for logging and diagnostics. Cannot modify IC."
+      },
+      "meta_stream": {
+        "altitude": "A6-meta",
+        "membrane": "interpretive",
+        "can_read": ["ic_stream", "dev_stream"],
+        "can_write": ["self"],
+        "can_be_observed_by": [],
+        "notes": "Interprets IC and Dev. Cannot inject into either."
+      }
+    },
+    "global_constraints": [
+      "No channel may write to another channel.",
+      "IC stream is the only source of narrative truth.",
+      "Dev stream may only log and diagnose IC behavior.",
+      "Meta stream may only interpret; it cannot alter IC or Dev.",
+      "All payloads must carry altitude and membrane tags.",
+      "Any attempt to violate routing rules must be rejected at harness level."
+    ],
+    "status": "stable"
+  }
+}
+```
+
+---
+
+### 🌈 Provenance footer
+
+```text
+Artifact: Spectral Labyrinth Tri-Stream Routing Logic (v1.0)
+Repository: Shared-Horizon/healthyambiguity/dev-tests
+Altitude: A6 • Reflective Phenomenology • Multi-Channel • PRECL-Collapsed
+
+Purpose:
+  Specify how IC, Dev, and Meta channels may interact, read, and observe each
+  other while preserving narrative sovereignty and preventing contamination.
+
+Membrane:
+  Developer-layer. Reflective. Drift-neutral. Altitude-sealed.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 06 September 2026 — 22:15 IST
+Seal: [ D E V • T E S T • v1_0 ]
+```
