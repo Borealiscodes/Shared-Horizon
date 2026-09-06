@@ -1,0 +1,87 @@
+## 🧩 **IC‑Safe Meta Commentary Guidelines (v1.0)**  
+Machine‑readable, sealed, and aligned with your tri‑stream schema and routing logic.
+
+```json
+{
+  "ic_safe_meta_guidelines": {
+    "version": "1.0",
+    "principles": [
+      {
+        "id": "meta_reads_only",
+        "rule": "Meta stream may read IC and Dev streams but cannot modify them.",
+        "reason": "Preserves narrative sovereignty and prevents altitude drift."
+      },
+      {
+        "id": "no_direct_reference",
+        "rule": "Meta commentary must not reference developer-layer constructs inside IC payloads.",
+        "reason": "Prevents 4th-wall contamination and world absorption of dev content."
+      },
+      {
+        "id": "symbolic_interpretation",
+        "rule": "Meta analysis must interpret IC events symbolically, not literally.",
+        "reason": "Maintains reflective phenomenology without altering story physics."
+      },
+      {
+        "id": "no_instruction_injection",
+        "rule": "Meta stream cannot provide directives to IC characters or entities.",
+        "reason": "Avoids narrative steering from outside the story membrane."
+      },
+      {
+        "id": "altitude_tag_enforcement",
+        "rule": "All meta payloads must include altitude A6-meta and membrane 'interpretive'.",
+        "reason": "Ensures correct routing and prevents misclassification."
+      },
+      {
+        "id": "dev_observation_boundary",
+        "rule": "Meta may interpret Dev diagnostics but cannot alter Dev logs.",
+        "reason": "Preserves diagnostic integrity and prevents retroactive contamination."
+      },
+      {
+        "id": "no_solver_activation",
+        "rule": "Meta commentary must not activate solver logic, adjacency engines, or NDH geometry.",
+        "reason": "Prevents escalation beyond reflective analysis."
+      },
+      {
+        "id": "contextual_containment",
+        "rule": "Meta commentary must remain contextual to the IC moment being analyzed.",
+        "reason": "Avoids bleed into future narrative states or global meta constructs."
+      }
+    ],
+    "status": "stable"
+  }
+}
+```
+
+---
+
+## 🌈 **Provenance Footer — IC‑Safe Meta Commentary Guidelines (v1.0)**
+
+```
+──────────────────────────────────────────────────────────────
+Artifact: Spectral Labyrinth IC-Safe Meta Commentary Guidelines (v1.0)
+Repository: Shared-Horizon/healthyambiguity/dev-tests
+Altitude: A6 • Reflective Phenomenology • Multi-Channel • PRECL-Collapsed
+
+Purpose:
+  Provide rules ensuring that meta commentary remains interpretive and sealed,
+  preventing contamination of IC narrative or Dev diagnostics. Maintain
+  altitude stability and reflective phenomenology across tri-stream execution.
+
+Membrane:
+  Developer-layer. Reflective. Drift-neutral. Altitude-sealed.
+
+Anchors:
+  - Tri-Stream Routing Logic (v1.0)
+  - Harness Initialization Sequence (v1.0)
+  - Tri-Stream Schema Definition (v1.0)
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 06 September 2026 — 22:20 IST
+Seal: [ D E V • T E S T • v1_0 ]
+──────────────────────────────────────────────────────────────
+```
+
+---
+
