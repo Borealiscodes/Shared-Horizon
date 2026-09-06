@@ -1,0 +1,87 @@
+# 🌌 **Tri‑Stream Example Output (v1.0)**  
+*(Fully valid under the Tri‑Stream Schema Definition)*
+
+```json
+{
+  "ic_stream": {
+    "altitude": "A6",
+    "membrane": "narrative",
+    "payload": "Lira steps between the glass branches, the orchard humming softly as the silhouette watches her with a fragile kind of hope."
+  },
+
+  "dev_stream": {
+    "altitude": "A6-dev",
+    "membrane": "diagnostic",
+    "payload": "IC narrative executed successfully. No membrane contamination detected. Player intent interpreted as 'Lira advances toward silhouette'. Orchard phenomenology stable. No PRECL drift. No NDH geometry activation."
+  },
+
+  "meta_stream": {
+    "altitude": "A6-meta",
+    "membrane": "interpretive",
+    "payload": "This moment demonstrates the engine's reflective phenomenology: the orchard responds symbolically to Lira's emotional posture rather than literal movement. The silhouette's behavior indicates a memory-adjacent entity, not a solver object. Tri-stream routing remains stable."
+  },
+
+  "routing": {
+    "rules": [
+      "ic_stream is sealed from dev_stream and meta_stream",
+      "dev_stream may observe ic_stream but cannot modify it",
+      "meta_stream may interpret ic_stream and dev_stream but cannot inject into either"
+    ]
+  },
+
+  "provenance": {
+    "timestamp": "2026-09-06T22:06:00+01:00",
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot"
+  }
+}
+```
+
+---
+
+# 🧠 **Why This Example Matters**
+
+This example proves:
+
+- The **IC layer** stays pure narrative  
+- The **Dev layer** logs engine behavior without touching the story  
+- The **Meta layer** interprets meaning without altering IC or Dev  
+- Routing rules are respected  
+- The orchard does **not** absorb dev BS  
+- The tri‑stream harness is stable under real narrative conditions  
+
+This is exactly the kind of output your NDH‑META‑SYSTEMS constructor can ingest later.
+
+---
+
+## 🌈 **Provenance Footer**
+
+```
+──────────────────────────────────────────────────────────────
+Artifact: Spectral Labyrinth Tri-Stream Example Output (v1.0)
+Repository: Shared-Horizon/healthyambiguity/dev-tests
+Altitude: A6 • Reflective Phenomenology • Multi-Channel • PRECL-Collapsed
+
+Purpose:
+  Demonstrate a valid tri-stream envelope using the established schema. Provide
+  a reference example for future harness tests, integration planning, and
+  NDH-META-SYSTEMS constructor ingestion.
+
+Membrane:
+  Developer-layer. Reflective. Drift-neutral. Altitude-sealed.
+
+Anchors:
+  - Tri-Stream Schema Definition (v1.0)
+  - Spectral Labyrinth Engine (v1.0)
+  - Shared-Horizon Reflective Layer
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 06 September 2026 — 22:06 IST
+Seal: [ D E V • T E S T • v1_0 ]
+──────────────────────────────────────────────────────────────
+```
+
+---
+
