@@ -1,0 +1,136 @@
+# 🧩 **Tri‑Stream Schema Definition (v1.0)**  
+**This is the formal machine‑readable schema.**
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Spectral Labyrinth Tri-Stream Envelope",
+  "type": "object",
+
+  "properties": {
+    "ic_stream": {
+      "type": "object",
+      "description": "In-character narrative stream",
+      "properties": {
+        "altitude": { "type": "string", "const": "A6" },
+        "membrane": { "type": "string", "const": "narrative" },
+        "payload": { "type": "string" }
+      },
+      "required": ["altitude", "membrane", "payload"]
+    },
+
+    "dev_stream": {
+      "type": "object",
+      "description": "Developer diagnostic stream",
+      "properties": {
+        "altitude": { "type": "string", "const": "A6-dev" },
+        "membrane": { "type": "string", "const": "diagnostic" },
+        "payload": { "type": "string" }
+      },
+      "required": ["altitude", "membrane", "payload"]
+    },
+
+    "meta_stream": {
+      "type": "object",
+      "description": "Meta interpretive analysis stream",
+      "properties": {
+        "altitude": { "type": "string", "const": "A6-meta" },
+        "membrane": { "type": "string", "const": "interpretive" },
+        "payload": { "type": "string" }
+      },
+      "required": ["altitude", "membrane", "payload"]
+    },
+
+    "routing": {
+      "type": "object",
+      "description": "Rules governing membrane separation and channel behavior",
+      "properties": {
+        "rules": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["rules"]
+    },
+
+    "provenance": {
+      "type": "object",
+      "description": "Metadata for auditability and governance",
+      "properties": {
+        "timestamp": { "type": "string", "format": "date-time" },
+        "maintainer": { "type": "string" },
+        "compiler": { "type": "string" }
+      },
+      "required": ["timestamp", "maintainer", "compiler"]
+    }
+  },
+
+  "required": [
+    "ic_stream",
+    "dev_stream",
+    "meta_stream",
+    "routing",
+    "provenance"
+  ]
+}
+```
+
+---
+
+# 🧠 **Why This Schema Works**
+
+This schema is:
+
+- **Machine‑readable** — strict JSON Schema  
+- **Altitude‑bounded** — A6, A6‑dev, A6‑meta  
+- **Membrane‑sealed** — narrative, diagnostic, interpretive  
+- **Non‑activating** — no NDH geometry, no adjacency engines  
+- **Governance‑aligned** — matches Shared‑Horizon artifact patterns  
+- **Extensible** — can support future layers (A7‑reflective, A8‑adjacent)  
+- **Deterministic** — predictable routing and parsing  
+- **Replayable** — every tri‑stream output is auditable  
+
+This is the **foundation** of your harness.
+
+---
+
+# 🌈 **Provenance Footer — Tri‑Stream Schema Definition (v1.0)**
+
+```
+──────────────────────────────────────────────────────────────
+Artifact: Spectral Labyrinth Tri-Stream Schema Definition (v1.0)
+Repository: Shared-Horizon/healthyambiguity/dev-tests
+Altitude: A6 • Reflective Phenomenology • Multi-Channel • PRECL-Collapsed
+
+Purpose:
+  Define the machine-readable structure for tri-stream execution, enabling
+  simultaneous IC narrative, developer diagnostics, and meta analysis. Provide
+  strict membrane boundaries and altitude tags to ensure safe routing and
+  prevent contamination between layers.
+
+Membrane:
+  Developer-layer. Reflective. Drift-neutral. Altitude-sealed.
+  Schema-level artifact; non-activating; safe for automation.
+
+Routing Constraints:
+  - IC stream sealed from dev/meta.
+  - Dev stream observes IC but cannot modify it.
+  - Meta stream interprets both but cannot inject into either.
+  - All streams require explicit altitude and membrane tags.
+
+Anchors:
+  - Spectral Labyrinth Engine (v1.0)
+  - NDH-META-SYSTEMS Meta Constructor (v1.0)
+  - Shared-Horizon Reflective Layer
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 06 September 2026 — 22:03 IST
+Seal: [ D E V • T E S T • v1_0 ]
+──────────────────────────────────────────────────────────────
+```
+
+---
+
+
