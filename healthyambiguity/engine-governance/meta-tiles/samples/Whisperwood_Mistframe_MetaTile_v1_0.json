@@ -1,0 +1,134 @@
+# 🜁 **SAMPLE META‑TILE — “Whisperwood Mistframe” (v1.0)**  
+*A7 Spectral Visual Grammar · Non‑diegetic · Altitude‑sealed*
+
+This meta‑tile provides a **mist‑behavior grammar** for Whisperwood modules.  
+It does **not** contain narrative.  
+It does **not** contain spectral companions.  
+It does **not** rewrite altitude bands.  
+It is safe for A6 consumption.
+
+---
+
+# 📦 **Whisperwood Mistframe — JSON Artifact (v1.0)**
+
+```json
+{
+  "meta_tile": {
+    "identity_block": {
+      "name": "Whisperwood_Mistframe",
+      "version": "1.0",
+      "altitude": "A7",
+      "purpose": "Provide non-diegetic mist behavior grammar for Whisperwood modules.",
+      "constraints": [
+        "non_diegetic",
+        "non_narrative",
+        "altitude_sealed",
+        "spectral_contained"
+      ]
+    },
+    "spectral_grammar_layer": {
+      "frames": ["mist_density_frame", "mist_motion_frame"],
+      "palettes": ["pale_blue", "ashen_white", "soft_silver"],
+      "motions": ["slow_coil", "pulse_recoil", "memory_distortion_waver"],
+      "atmospheres": ["karuna_tinge", "bhayanaka_shiver"]
+    },
+    "structural_layer": {
+      "schema": {
+        "mist_density": "float",
+        "mist_motion_pattern": "string",
+        "emotional_overlay": "string",
+        "visibility_modifier": "float"
+      },
+      "machine_readable_fields": [
+        "mist_density",
+        "mist_motion_pattern",
+        "emotional_overlay",
+        "visibility_modifier"
+      ]
+    },
+    "diagnostic_layer": {
+      "overlays": ["mist_stability_indicator", "emotional_pressure_meter"],
+      "visibility": "designer_only"
+    },
+    "integration_layer": {
+      "tri_stream_harness_version": "2.1",
+      "bifurcation_logic_version": "1.0",
+      "meta_tile_constitution_version": "1.0"
+    },
+    "altitude_seal": {
+      "locked_to": "A7",
+      "forbidden_altitudes": ["A6", "A8"]
+    },
+    "routing_block": {
+      "consumption_altitude": "A6",
+      "rewrite_altitude": "A8",
+      "rules": [
+        "A6_may_consume_not_modify",
+        "A7_may_construct_not_enter_IC",
+        "A8_may_rewrite_not_inject"
+      ]
+    }
+  }
+}
+```
+
+---
+
+# 🧠 **What This Meta‑Tile Does**
+
+### **A6 (IC Runtime)**
+Consumes the tile to:
+- adjust mist density  
+- apply emotional overlays  
+- modify visibility  
+- run mist motion patterns  
+
+But **cannot** modify or rewrite the tile.
+
+### **A7 (Spectral Grammar)**
+Constructs and governs the tile.
+
+### **A8 (Designer Altitude)**
+May rewrite the tile, but cannot inject it directly into IC.
+
+---
+
+# 🧱 **Altitude Safety Check**
+- No whale  
+- No spectral companions  
+- No IC narrative  
+- No world‑state mutations  
+- No altitude rewrite logic  
+- Fully sealed to A7  
+
+This tile is **constitutionally valid**.
+
+---
+
+# 🌈 **Provenance Footer — Whisperwood Mistframe Meta‑Tile (v1.0)**
+
+```
+Artifact: Whisperwood Mistframe Meta-Tile (v1.0)
+Lane: Engine Governance · Meta-Tile Architecture · Samples
+Altitude: A7 Construction · A6 Consumption · A8 Governance
+
+Purpose:
+  Provide a non-diegetic mist behavior grammar tile for Whisperwood modules. Implements spectral
+  frames, palettes, motions, and atmospheres without IC contamination. Ensures strict altitude
+  separation and compliance with Meta-Tile Constitution and Tri-Stream Harness v2.1.
+
+Anchors:
+  - Meta-Tile Constitution v1.0
+  - Meta-Tile Construction Suite v1.0
+  - Unified Bifurcation Logic v1.0
+  - Tri-Stream Harness Integration v2.1
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 01:26 IST
+Seal: [ W H I S P E R W O O D • M I S T F R A M E • v1_0 ]
+```
+
+---
+
