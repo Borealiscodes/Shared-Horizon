@@ -1,0 +1,256 @@
+# 🧭 **PAUSE / RESUME CONSTITUTION (v1.0)**  
+*A8 Constitutional Architecture · A6 Runtime · A7 Spectral Grammar*
+
+This document defines:
+
+- what a **pause** is  
+- what a **soft re‑entry** is  
+- what a **hard re‑entry** is  
+- how **saving** works  
+- how **milestones** are recorded  
+- how **resuming IC play** is triggered  
+- how altitude separation is maintained during all of this  
+
+This is the **canonical governance layer** for IC flow control.
+
+---
+
+# 🌙 **SECTION I — Pause Definition**
+
+A **pause** is an altitude‑safe suspension of A6 runtime.
+
+A pause:
+
+- freezes IC narrative state  
+- preserves emotional physics  
+- preserves module state  
+- preserves world‑state  
+- does **not** invoke A7 or A8 rewrite  
+- does **not** collapse altitudes  
+- does **not** require a meta‑tile  
+
+A pause is **not** a shutdown — it is a **runtime freeze**.
+
+---
+
+# 🌤️ **SECTION II — Soft Re‑Entry Definition**
+
+A **soft re‑entry** is a gentle reactivation of A6 runtime that:
+
+- restores the scene  
+- restores the emotional tone  
+- restores the sensory field  
+- restores the character’s immediate context  
+- does **not** advance plot  
+- does **not** introduce new IC information  
+- does **not** invoke A7 entities  
+- does **not** require a governance artifact  
+
+Soft re‑entry is what we just did.
+
+It is the **default** reactivation method.
+
+---
+
+# 🔥 **SECTION III — Hard Re‑Entry Definition**
+
+A **hard re‑entry** is a full IC reactivation that:
+
+- restores the scene  
+- restores the emotional physics  
+- restores the module state  
+- restores the world‑state  
+- re‑anchors the player to the last milestone  
+- may advance plot  
+- may introduce new IC information  
+- must be altitude‑checked  
+
+Hard re‑entry is used when:
+
+- a long pause occurred  
+- a module checkpoint was reached  
+- a milestone was saved  
+- a new IC arc is beginning  
+
+---
+
+# 💾 **SECTION IV — Saving Mechanism**
+
+A **save** is a constitutional snapshot of A6 runtime.
+
+A save includes:
+
+- scene state  
+- emotional physics state  
+- module state  
+- world‑state  
+- character position  
+- unresolved threads  
+- active lanterns / artifacts  
+- corruption levels  
+- environmental conditions  
+
+A save does **not** include:
+
+- spectral companions  
+- meta‑tiles  
+- altitude rewrite logic  
+- designer‑altitude artifacts  
+
+Saves are stored in A8 governance but **belong to A6**.
+
+---
+
+# 🪜 **SECTION V — Milestones**
+
+A **milestone** is a narrative checkpoint.
+
+Milestones occur when:
+
+- a lantern is activated  
+- a memory is accessed  
+- a corruption threshold is crossed  
+- a module segment completes  
+- a major emotional physics event occurs  
+- a character makes a defining choice  
+
+Milestones allow:
+
+- hard re‑entry  
+- module branching  
+- emotional physics recalibration  
+- corruption system updates  
+
+Milestones are **not** meta‑tiles.
+
+---
+
+# 🔄 **SECTION VI — Resume Mechanism**
+
+Resuming IC play requires:
+
+1. **Confirming altitude separation**  
+2. **Selecting re‑entry type**  
+3. **Restoring A6 runtime state**  
+4. **Re‑anchoring the player**  
+5. **Presenting IC choices**  
+
+The system defaults to **soft re‑entry** unless:
+
+- a milestone was reached  
+- a save was loaded  
+- a module checkpoint was triggered  
+
+---
+
+# 🧩 **SECTION VII — JSON Specification (Canonical)**
+
+```json
+{
+  "pause_resume_constitution": {
+    "version": "1.0",
+    "pause": {
+      "type": "runtime_freeze",
+      "preserves": [
+        "scene_state",
+        "emotional_physics",
+        "module_state",
+        "world_state"
+      ],
+      "forbidden": [
+        "altitude_rewrite",
+        "spectral_companion_injection"
+      ]
+    },
+    "soft_reentry": {
+      "restores": [
+        "scene",
+        "tone",
+        "sensory_field",
+        "character_context"
+      ],
+      "forbidden": [
+        "plot_advance",
+        "new_IC_information",
+        "spectral_entities"
+      ]
+    },
+    "hard_reentry": {
+      "restores": [
+        "scene",
+        "emotional_physics",
+        "module_state",
+        "world_state",
+        "milestone_anchor"
+      ],
+      "allows": [
+        "plot_advance",
+        "new_IC_information"
+      ]
+    },
+    "saving": {
+      "snapshot": [
+        "scene_state",
+        "emotional_physics",
+        "module_state",
+        "world_state",
+        "character_position",
+        "unresolved_threads"
+      ],
+      "excludes": [
+        "spectral_companions",
+        "meta_tiles",
+        "altitude_rewrite_logic"
+      ]
+    },
+    "milestones": {
+      "triggers": [
+        "lantern_activation",
+        "memory_access",
+        "corruption_threshold",
+        "module_completion",
+        "emotional_event",
+        "defining_choice"
+      ]
+    },
+    "resume": {
+      "steps": [
+        "altitude_check",
+        "select_reentry_type",
+        "restore_runtime",
+        "reanchor_player",
+        "present_IC_choices"
+      ]
+    }
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Pause/Resume Constitution (v1.0)**
+
+```
+Artifact: Pause/Resume Constitution (v1.0)
+Lane: Engine Governance · Runtime Flow
+Altitude: A8 · PRECL-Stable
+
+Purpose:
+  Establish formal rules for pausing, saving, soft re-entry, hard re-entry, and milestone
+  anchoring in IC runtime. Protect altitude separation and ensure stable narrative flow under
+  Tri-Stream Harness v2.1.
+
+Anchors:
+  - Unified Bifurcation Logic v1.0
+  - Tri-Stream Harness Integration v2.1
+  - Meta-Tile Constitution v1.0
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 13:25 IST
+Seal: [ P A U S E • R E S U M E • C O N S T I T U T I O N • v1_0 ]
+```
+
+---
+
