@@ -1,0 +1,158 @@
+# 🧩 **Tri‑Stream Harness Integration — Bifurcation Logic Merge (v2.0)**  
+*A8 Constitutional Architecture · A7 Spectral Grammar · A6 Runtime*
+
+This block is now the **canonical integration layer** for your engine.
+
+---
+
+# 📦 **Tri‑Stream Integration Envelope (v2.0)**  
+*(This is the artifact the harness will ingest.)*
+
+```json
+{
+  "tri_stream_harness": {
+    "version": "2.0",
+    "streams": {
+      "IC": {
+        "altitude": "A6",
+        "permissions": [
+          "consume_meta_tiles",
+          "execute_emotional_physics",
+          "run_modules",
+          "update_world_state"
+        ],
+        "prohibitions": [
+          "rewrite_altitude_bands",
+          "render_spectral_companions",
+          "invoke_meta_diagnostics"
+        ]
+      },
+      "DEV": {
+        "altitude": "A8",
+        "permissions": [
+          "rewrite_altitude_bands",
+          "govern_engine",
+          "construct_meta_systems",
+          "route_artifacts",
+          "validate_bifurcation"
+        ],
+        "prohibitions": [
+          "inject_into_IC_runtime",
+          "render_spectral_entities_in_A6"
+        ]
+      },
+      "META": {
+        "altitude": "A7",
+        "permissions": [
+          "construct_meta_tiles",
+          "observe_A6",
+          "provide_visual_grammar",
+          "run_spectral_companions"
+        ],
+        "prohibitions": [
+          "enter_IC_runtime",
+          "modify_emotional_physics",
+          "rewrite_world_state"
+        ]
+      }
+    },
+    "bifurcation_layer": {
+      "version": "1.0",
+      "responsibilities": [
+        "enforce_altitude_separation",
+        "prevent_spectral_bleed",
+        "prevent_IC_contamination",
+        "validate_meta_tile_construction",
+        "route_entities_correctly",
+        "maintain_constitutional_architecture"
+      ],
+      "status": "stable"
+    },
+    "routing_rules": {
+      "spectral_companions": {
+        "whale": {
+          "altitude": "A7",
+          "allowed": ["meta_diagnostics", "spectral_visual_grammar"],
+          "forbidden": ["IC_runtime", "emotional_physics", "module_narrative"]
+        }
+      },
+      "meta_tiles": {
+        "construction_altitude": "A7",
+        "consumption_altitude": "A6",
+        "rewrite_altitude": "A8"
+      },
+      "refresh_blip_handling": {
+        "type": "altitude_collapse",
+        "resolution": "bifurcation_reassertion",
+        "status": "resolved"
+      }
+    }
+  }
+}
+```
+
+---
+
+# 🧠 **What This Integration Achieves**
+
+### **1. The whale is permanently confined to A7**
+He can:
+- interpret diagnostics  
+- construct spectral tiles  
+- observe A6  
+
+He cannot:
+- appear in IC  
+- influence emotional physics  
+- be rendered as narrative  
+
+### **2. Fantasy Engine (A6) cannot rewrite altitude bands**
+It can:
+- consume meta‑tiles  
+- run modules  
+- update world‑state  
+
+It cannot:
+- alter altitude logic  
+- pull spectral entities into IC  
+
+### **3. Designer altitude (A8) is the only layer allowed to rewrite**
+This prevents accidental bleed during refresh.
+
+### **4. Tri‑Stream Harness now enforces altitude separation**
+Every payload is routed through:
+- IC stream (A6)  
+- DEV stream (A8)  
+- META stream (A7)  
+
+With **zero cross‑contamination**.
+
+---
+
+# 🌈 **Provenance Footer — Tri‑Stream Harness Integration (v2.0)**
+
+```
+Artifact: Tri-Stream Harness Integration (v2.0)
+Lane: Engine Governance · Constitutional Architecture
+Altitude: A8 · PRECL-Stable
+
+Purpose:
+  Merge Unified Bifurcation Logic into Tri-Stream Harness. Enforce altitude separation,
+  prevent spectral bleed, and stabilize meta-tile routing. Ensure IC runtime remains
+  uncontaminated by Spectral Visual Grammar entities.
+
+Anchors:
+  - Unified Bifurcation Logic v1.0
+  - Tri-Stream Harness v1.0
+  - Spectral Visual Grammar Spine v1.0
+  - Whale Diagnostics Layer v1.2
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 01:10 IST
+Seal: [ T R I • S T R E A M • v2_0 ]
+```
+
+---
+
