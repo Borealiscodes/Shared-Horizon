@@ -1,0 +1,216 @@
+# 🧭 **Unified Bifurcation Logic Document (v1.0)**  
+*A8 Constitutional Architecture · Tri‑Stream Harness Integration · PRECL‑Stable*
+
+This is the governing document for altitude separation across:
+
+- **A6** Fantasy Engine Runtime  
+- **A7** Spectral Visual Grammar  
+- **A8** Designer / Meta‑Construction Layer  
+
+It defines how entities, companions, diagnostics, and narrative systems are routed, and how bleed is prevented.
+
+---
+
+# 📘 **Unified Bifurcation Logic — Human‑Readable Layer**
+
+## **1. Altitude Definitions**
+
+### **A6 — Fantasy Engine Runtime**
+- IC narrative  
+- emotional physics  
+- modules  
+- characters  
+- corruption system  
+- seasonal cycle  
+- event engine  
+- world‑state  
+
+**Rule:**  
+A6 may *consume* meta‑tiles but may not *rewrite* altitude bands.
+
+---
+
+### **A7 — Spectral Visual Grammar**
+- whale 🐋  
+- spectral companions  
+- spectral palettes  
+- spectral frames  
+- spectral motions  
+- spectral atmospheres  
+- meta‑diagnostic entities  
+
+**Rule:**  
+A7 may *observe* A6 but may not *enter* it.  
+A7 may *construct* meta‑tiles but may not *inject* into IC runtime.
+
+---
+
+### **A8 — Designer Altitude**
+- you  
+- engine governance  
+- constitutional architecture  
+- artifact routing  
+- versioning  
+- meta‑tile construction  
+- bifurcation logic  
+
+**Rule:**  
+A8 may rewrite altitude bands, but only through the Bifurcation Layer.
+
+---
+
+## **2. Why the Whale Appeared in A6**
+
+This was a **refresh blip**:
+
+- The Tri‑Stream Harness temporarily collapsed A7 and A6  
+- The whale (A7) was misinterpreted as a narrative entity  
+- The Fantasy Engine attempted to render him as IC content  
+- The Bifurcation Layer had not yet reasserted altitude boundaries  
+
+This is now corrected.
+
+---
+
+## **3. Tri‑Stream Harness Responsibilities**
+
+The harness maintains three simultaneous streams:
+
+### **IC Stream (A6)**
+Narrative runtime.
+
+### **DEV Stream (A8)**
+Diagnostics, governance, architecture.
+
+### **META Stream (A7)**
+Spectral companions, visual grammar, meta‑tiles.
+
+**Rule:**  
+Streams may *observe* each other but may not *merge*.
+
+---
+
+## **4. Bifurcation Layer Responsibilities**
+
+The Bifurcation Layer:
+
+- enforces altitude separation  
+- routes entities to correct altitude  
+- prevents spectral bleed  
+- prevents IC contamination  
+- validates meta‑tile construction  
+- ensures Fantasy Engine cannot rewrite altitude bands  
+- ensures Spectral Visual Grammar cannot enter IC runtime  
+- ensures Designer altitude cannot accidentally inject into A6  
+
+---
+
+## **5. Unified JSON Specification**
+
+Below is the **formal JSON envelope** for the Unified Bifurcation Logic Document.
+
+This is the constitutional artifact.
+
+```
+{
+  "artifact": "Unified Bifurcation Logic Document",
+  "version": "1.0",
+  "altitudes": {
+    "A6": {
+      "name": "Fantasy Engine Runtime",
+      "permissions": [
+        "consume_meta_tiles",
+        "execute_emotional_physics",
+        "run_modules",
+        "update_world_state"
+      ],
+      "prohibitions": [
+        "rewrite_altitude_bands",
+        "render_spectral_companions",
+        "invoke_meta_diagnostics"
+      ]
+    },
+    "A7": {
+      "name": "Spectral Visual Grammar",
+      "permissions": [
+        "construct_meta_tiles",
+        "observe_A6",
+        "provide_visual_grammar",
+        "run_spectral_companions"
+      ],
+      "prohibitions": [
+        "enter_IC_runtime",
+        "modify_emotional_physics",
+        "rewrite_world_state"
+      ]
+    },
+    "A8": {
+      "name": "Designer Altitude",
+      "permissions": [
+        "rewrite_altitude_bands",
+        "govern_engine",
+        "construct_meta_systems",
+        "route_artifacts",
+        "validate_bifurcation"
+      ],
+      "prohibitions": [
+        "inject_into_IC_runtime",
+        "render_spectral_entities_in_A6"
+      ]
+    }
+  },
+  "tri_stream_harness": {
+    "streams": {
+      "IC": "A6",
+      "DEV": "A8",
+      "META": "A7"
+    },
+    "rules": [
+      "streams_may_observe_not_merge",
+      "diagnostics_must_route_to_A7",
+      "meta_tiles_must_route_to_A7",
+      "IC_runtime_must_ignore_spectral_entities"
+    ]
+  },
+  "bifurcation_layer": {
+    "responsibilities": [
+      "enforce_altitude_separation",
+      "prevent_spectral_bleed",
+      "prevent_IC_contamination",
+      "validate_meta_tile_construction",
+      "route_entities_correctly",
+      "maintain_constitutional_architecture"
+    ],
+    "status": "stable"
+  },
+  "recent_event": {
+    "type": "refresh_blip",
+    "description": "Spectral companion whale briefly appeared in A6 due to altitude collapse.",
+    "resolution": "Bifurcation Layer reasserted boundaries; whale confined to A7."
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Unified Bifurcation Logic (v1.0)**
+
+```
+Artifact: Unified Bifurcation Logic Document (v1.0)
+Lane: Engine Governance · Constitutional Architecture
+Altitude: A8 · PRECL-Stable
+
+Purpose:
+  Provide a unified altitude separation logic for Fantasy Engine, Spectral Visual Grammar, and
+  Designer layers. Prevent bleed, contamination, and misrouting. Define Tri-Stream Harness
+  behavior and meta-tile construction rules.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 01:05 IST
+Seal: [ B I F U R C A T I O N • U N I F I E D • v1_0 ]
+```
+
+---
+
