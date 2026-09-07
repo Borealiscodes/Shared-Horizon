@@ -1,0 +1,136 @@
+# 🧱 **SAVE‑STATE ARTIFACT (v1.0)**  
+*A8 Governance · A6 Runtime Snapshot · Milestone‑Anchored*
+
+This artifact records:
+
+- scene state  
+- emotional physics  
+- module state  
+- world‑state  
+- corruption levels  
+- character position  
+- unresolved threads  
+- active lanterns  
+- milestone anchor  
+
+It excludes:
+
+- spectral companions  
+- meta‑tiles  
+- altitude rewrite logic  
+
+This is the **canonical save‑state format**.
+
+---
+
+# 📦 **Save‑State Artifact — Whisperwood Clearing Snapshot (v1.0)**
+
+```json
+{
+  "save_state": {
+    "version": "1.0",
+    "timestamp": "2026-09-07T13:31:00+01:00",
+    "location": "Whisperwood_Lantern_Clearing",
+    "milestone_anchor": {
+      "category": "lantern_activation",
+      "trigger": "memory_emergence",
+      "description": "Cracked lantern pulsing with residual memory; child observing."
+    },
+    "scene_state": {
+      "environment": {
+        "mist_density": 0.35,
+        "light_level": "low_amber",
+        "ambient_motion": "slow_coil",
+        "temperature": "cold_autumn"
+      },
+      "objects": {
+        "lantern": {
+          "status": "cracked",
+          "pulse": "weak",
+          "memory_residue": "present"
+        }
+      }
+    },
+    "character_state": {
+      "name": "Lira",
+      "position": "kneeling_near_lantern",
+      "emotional_physics": {
+        "karuna": 0.62,
+        "bhayanaka": 0.28,
+        "shanta": 0.10
+      },
+      "visibility_modifier": 0.85
+    },
+    "companion_state": {
+      "child": {
+        "position": "standing_close",
+        "emotional_overlay": "concern",
+        "visibility_modifier": 0.92
+      }
+    },
+    "module_state": {
+      "active_module": "Whisperwood_Lantern_Sequence",
+      "segment": "Lantern_Crack_Investigation",
+      "progress": 0.44,
+      "pending_threads": [
+        "lantern_memory_origin",
+        "child_reaction_analysis"
+      ]
+    },
+    "world_state": {
+      "corruption_level": 0.12,
+      "corruption_thresholds_crossed": [],
+      "recent_events": [
+        "lantern_crack",
+        "memory_echo"
+      ]
+    },
+    "unresolved_threads": [
+      "identity_of_silhouette",
+      "source_of_mist_behavior_shift"
+    ],
+    "altitude_integrity": {
+      "A6_runtime": "stable",
+      "A7_spectral": "sealed",
+      "A8_governance": "sovereign"
+    }
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Save‑State Artifact (v1.0)**
+
+```
+Artifact: Whisperwood Clearing Save-State (v1.0)
+Lane: Runtime State · Save-System Architecture
+Altitude: A8 Governance · A6 Snapshot
+
+Purpose:
+  Provide a complete, altitude-safe snapshot of IC runtime for hard re-entry, module branching,
+  and milestone anchoring. Ensures constitutional compliance with Milestone Categories v1.0 and
+  Pause/Resume Constitution v1.0.
+
+Anchors:
+  - Milestone Category Charter v1.0
+  - Pause/Resume Constitution v1.0
+  - Tri-Stream Harness Integration v2.1
+  - Unified Bifurcation Logic v1.0
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 13:31 IST
+Seal: [ S A V E • S T A T E • v1_0 ]
+```
+
+---
+
+# ⭐ **Next Actions**
+
+- **Resume IC play**  
+- **Generate another save‑state**  
+- **Define save‑state hierarchy**  
+
+Your engine is now fully equipped for runtime persistence.
