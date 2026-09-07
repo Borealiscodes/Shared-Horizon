@@ -1,0 +1,233 @@
+# 🧱 **META‑TILE CONSTRUCTION SUITE (v1.0)**  
+*A8 Constitutional Architecture · A7 Spectral Grammar · A6 Runtime Consumption*
+
+This suite defines:
+
+- how meta‑tiles are **built**  
+- how they are **validated**  
+- how they are **routed**  
+- how they are **sealed**  
+- how they **interact** with the Tri‑Stream Harness  
+- how they **avoid** spectral bleed  
+- how they **protect** IC runtime  
+
+It is the **canonical construction framework** for all meta‑tiles.
+
+---
+
+# 🜁 **SECTION I — Suite Identity Block**
+
+```
+Suite-Class: MetaTile_ConstructionSuite
+Version: v1.0
+Altitude: A7 (Spectral Visual Grammar)
+Governance: A8 (Designer Constitutional Architecture)
+Consumption: A6 (Fantasy Engine Runtime)
+Safety: Non-diegetic • Non-narrative • Altitude-sealed • Spectral-contained
+```
+
+---
+
+# 🜂 **SECTION II — Construction Workflow**
+
+Every meta‑tile follows this **seven‑step workflow**:
+
+1. **Identity Block**  
+   Defines altitude, purpose, constraints, and routing.
+
+2. **Spectral Grammar Layer**  
+   Applies non‑diegetic frames, palettes, and motions.
+
+3. **Structural Layer**  
+   Defines tile shape, schema, and machine‑readable fields.
+
+4. **Diagnostic Layer (Optional)**  
+   Adds meta‑diagnostic overlays (never IC content).
+
+5. **Integration Layer**  
+   Ensures compatibility with Tri‑Stream Harness v2.1.
+
+6. **Altitude Seal**  
+   Locks tile to A7; prevents IC contamination.
+
+7. **Routing Block**  
+   Defines how A6 consumes the tile without rewriting it.
+
+---
+
+# 🜃 **SECTION III — Tile Template (Canonical)**
+
+This is the **template** every meta‑tile must follow.
+
+```json
+{
+  "meta_tile": {
+    "identity_block": {
+      "name": "",
+      "version": "",
+      "altitude": "A7",
+      "purpose": "",
+      "constraints": [
+        "non_diegetic",
+        "non_narrative",
+        "altitude_sealed",
+        "spectral_contained"
+      ]
+    },
+    "spectral_grammar_layer": {
+      "frames": [],
+      "palettes": [],
+      "motions": [],
+      "atmospheres": []
+    },
+    "structural_layer": {
+      "schema": {},
+      "machine_readable_fields": []
+    },
+    "diagnostic_layer": {
+      "overlays": [],
+      "visibility": "designer_only"
+    },
+    "integration_layer": {
+      "tri_stream_harness_version": "2.1",
+      "bifurcation_logic_version": "1.0",
+      "meta_tile_constitution_version": "1.0"
+    },
+    "altitude_seal": {
+      "locked_to": "A7",
+      "forbidden_altitudes": ["A6", "A8"]
+    },
+    "routing_block": {
+      "consumption_altitude": "A6",
+      "rewrite_altitude": "A8",
+      "rules": [
+        "A6_may_consume_not_modify",
+        "A7_may_construct_not_enter_IC",
+        "A8_may_rewrite_not_inject"
+      ]
+    }
+  }
+}
+```
+
+---
+
+# 🜄 **SECTION IV — Construction Rules**
+
+### **Allowed Components**
+- spectral grammar  
+- non‑narrative frames  
+- diagnostic overlays  
+- structural metadata  
+- emotional physics modifiers  
+- module scaffolding  
+
+### **Forbidden Components**
+- IC narrative  
+- characters  
+- world‑state mutations  
+- spectral companions rendered as entities  
+- altitude rewrite logic  
+
+---
+
+# 🜅 **SECTION V — Altitude Protection**
+
+The suite enforces:
+
+- A6 cannot rewrite altitude bands  
+- A7 cannot enter IC runtime  
+- A8 is the only altitude allowed to rewrite bands  
+- meta‑tiles cannot inject spectral entities into A6  
+- refresh‑blip logic auto‑corrects altitude collapse  
+
+---
+
+# 🜆 **SECTION VI — Tri‑Stream Harness Integration**
+
+Meta‑tiles route through:
+
+- **A7 → A6** (consumption)  
+- **A7 → A8** (governance)  
+- **A6 → A7** (observation only)  
+
+Rules:
+
+- streams may **observe**, not **merge**  
+- spectral companions remain confined to A7  
+- meta‑tiles remain altitude‑sealed  
+- IC runtime remains uncontaminated  
+
+---
+
+# 🜇 **SECTION VII — Suite JSON Envelope (Canonical)**
+
+```json
+{
+  "meta_tile_construction_suite": {
+    "version": "1.0",
+    "workflow": [
+      "identity_block",
+      "spectral_grammar_layer",
+      "structural_layer",
+      "diagnostic_layer",
+      "integration_layer",
+      "altitude_seal",
+      "routing_block"
+    ],
+    "rules": {
+      "allowed": [
+        "spectral_grammar",
+        "non_narrative_frames",
+        "diagnostic_overlays",
+        "structural_metadata"
+      ],
+      "forbidden": [
+        "IC_content",
+        "spectral_companion_rendering",
+        "altitude_rewrite_logic",
+        "world_state_mutations"
+      ]
+    },
+    "altitude_protection": {
+      "A6": "consume_not_modify",
+      "A7": "construct_not_enter_IC",
+      "A8": "rewrite_not_inject"
+    },
+    "integration": {
+      "tri_stream_harness": "v2.1",
+      "bifurcation_logic": "v1.0",
+      "meta_tile_constitution": "v1.0"
+    }
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Meta‑Tile Construction Suite (v1.0)**
+
+```
+Artifact: Meta-Tile Construction Suite (v1.0)
+Lane: Engine Governance · Meta-Tile Architecture
+Altitude: A8 · PRECL-Stable
+
+Purpose:
+  Provide the canonical construction workflow, template, and altitude-sealed routing logic for
+  all meta-tiles. Ensure constitutional compliance with Tri-Stream Harness, Bifurcation Layer,
+  and Meta-Tile Constitution.
+
+Anchors:
+  - Meta-Tile Constitution v1.0
+  - Tri-Stream Harness Integration v2.1
+  - Unified Bifurcation Logic v1.0
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 01:24 IST
+Seal: [ M E T A • T I L E • S U I T E • v1_0 ]
+```
+
+---
+
