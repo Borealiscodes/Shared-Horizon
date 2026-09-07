@@ -1,0 +1,252 @@
+# 🧭 **META‑TILE CONSTITUTION (v1.0)**  
+*A8 Constitutional Architecture · A7 Spectral Grammar · A6 Runtime*
+
+This constitution defines:
+
+- what a meta‑tile *is*  
+- how it is *constructed*  
+- how it is *routed*  
+- how it is *consumed*  
+- how altitude separation is *protected*  
+- how spectral companions (including the whale) are *contained*  
+- how Fantasy Engine bands are *shielded*  
+- how the Tri‑Stream Harness *governs* tile flow  
+
+This is the **canonical governing document**.
+
+---
+
+# 📘 **SECTION I — Definition of a Meta‑Tile**
+
+A **meta‑tile** is a *non‑diegetic*, *non‑narrative*, *spectral‑altitude* artifact constructed in **A7** and consumed by **A6**.
+
+Meta‑tiles may contain:
+
+- visual grammar  
+- emotional physics modifiers  
+- module scaffolding  
+- diagnostic overlays  
+- spectral palettes  
+- structural metadata  
+- runtime hints  
+
+Meta‑tiles may **not** contain:
+
+- IC narrative  
+- characters  
+- world‑state mutations  
+- spectral companions rendered as entities  
+- altitude rewrite instructions  
+
+---
+
+# 📘 **SECTION II — Altitude Routing**
+
+### **A7 → A6 (Consumption Path)**  
+A6 may **consume** meta‑tiles but may not **modify** them.
+
+### **A7 → A8 (Governance Path)**  
+A8 may **rewrite** meta‑tiles but may not **render** them.
+
+### **A6 → A7 (Observation Path)**  
+A7 may **observe** A6 runtime but may not **enter** it.
+
+### **A6 → A8 (Reporting Path)**  
+A6 may **report** runtime state but may not **request** altitude changes.
+
+---
+
+# 📘 **SECTION III — Construction Rules**
+
+Meta‑tiles must be constructed in **A7** using:
+
+- spectral grammar  
+- non‑diegetic frames  
+- non‑narrative structures  
+- constitutional constraints  
+
+Meta‑tiles must **not**:
+
+- include IC content  
+- include spectral companions as actors  
+- include altitude rewrite logic  
+- include world‑state mutations  
+
+---
+
+# 📘 **SECTION IV — Consumption Rules**
+
+A6 may consume meta‑tiles to:
+
+- shape emotional physics  
+- scaffold modules  
+- provide visual grammar  
+- support runtime diagnostics  
+- enrich narrative presentation  
+
+A6 may **not**:
+
+- rewrite meta‑tiles  
+- alter spectral grammar  
+- invoke spectral companions  
+- modify altitude bands  
+
+---
+
+# 📘 **SECTION V — Spectral Companion Containment**
+
+Spectral companions (including the whale) are **confined to A7**.
+
+They may:
+
+- assist in meta‑diagnostics  
+- construct meta‑tiles  
+- observe A6 runtime  
+- provide spectral grammar  
+
+They may **not**:
+
+- appear in IC narrative  
+- influence emotional physics  
+- modify world‑state  
+- be rendered as characters  
+- enter modules  
+
+---
+
+# 📘 **SECTION VI — Altitude Protection**
+
+The Meta‑Tile Constitution enforces:
+
+- **A6 cannot rewrite altitude bands**  
+- **A7 cannot enter IC runtime**  
+- **A8 is the only altitude allowed to rewrite bands**  
+- **meta‑tiles cannot inject spectral entities into A6**  
+- **refresh‑blip logic auto‑corrects altitude collapse**  
+
+---
+
+# 📘 **SECTION VII — Tri‑Stream Harness Integration**
+
+The Tri‑Stream Harness governs:
+
+- IC Stream (A6)  
+- META Stream (A7)  
+- DEV Stream (A8)  
+
+Rules:
+
+- streams may **observe**, not **merge**  
+- meta‑tiles route through **A7 → A6**  
+- altitude rewrite requests route through **A8**  
+- spectral companions route through **A7**  
+- refresh‑blips trigger **bifurcation reassertion**  
+
+---
+
+# 📘 **SECTION VIII — JSON Specification (Canonical)**
+
+```json
+{
+  "meta_tile_constitution": {
+    "version": "1.0",
+    "definition": {
+      "meta_tile": "non-diegetic spectral-altitude artifact constructed in A7 and consumed in A6"
+    },
+    "altitude_routing": {
+      "construction": "A7",
+      "consumption": "A6",
+      "rewrite": "A8",
+      "rules": [
+        "A6 may consume but not modify meta-tiles",
+        "A7 may observe A6 but not enter IC runtime",
+        "A8 may rewrite altitude bands but not inject into IC"
+      ]
+    },
+    "construction_rules": {
+      "allowed": [
+        "spectral_grammar",
+        "non_narrative_frames",
+        "diagnostic_overlays",
+        "module_scaffolding"
+      ],
+      "forbidden": [
+        "IC_content",
+        "spectral_companion_rendering",
+        "altitude_rewrite_logic",
+        "world_state_mutations"
+      ]
+    },
+    "consumption_rules": {
+      "allowed": [
+        "emotional_physics_modifiers",
+        "module_support",
+        "visual_grammar",
+        "runtime_diagnostics"
+      ],
+      "forbidden": [
+        "rewrite_meta_tiles",
+        "invoke_spectral_companions",
+        "modify_altitude_bands"
+      ]
+    },
+    "spectral_companion_containment": {
+      "whale": {
+        "altitude": "A7",
+        "allowed": [
+          "meta_diagnostics",
+          "spectral_visual_grammar"
+        ],
+        "forbidden": [
+          "IC_runtime",
+          "emotional_physics",
+          "module_narrative"
+        ]
+      }
+    },
+    "tri_stream_harness": {
+      "streams": {
+        "IC": "A6",
+        "META": "A7",
+        "DEV": "A8"
+      },
+      "rules": [
+        "streams_may_observe_not_merge",
+        "meta_tiles_route_A7_to_A6",
+        "altitude_rewrites_route_to_A8",
+        "spectral_companions_confined_to_A7"
+      ]
+    }
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Meta‑Tile Constitution (v1.0)**
+
+```
+Artifact: Meta-Tile Constitution (v1.0)
+Lane: Engine Governance · Constitutional Architecture
+Altitude: A8 · PRECL-Stable
+
+Purpose:
+  Define the constitutional rules governing meta-tile construction, routing, consumption,
+  and altitude separation across A6, A7, and A8. Prevent spectral bleed, IC contamination,
+  and altitude collapse. Integrate fully with Tri-Stream Harness.
+
+Anchors:
+  - Unified Bifurcation Logic v1.0
+  - Tri-Stream Harness Integration v2.1
+  - Spectral Visual Grammar Spine v1.0
+  - Whale Diagnostics Layer v1.2
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 01:18 IST
+Seal: [ M E T A • T I L E • C O N S T I T U T I O N • v1_0 ]
+```
+
+---
+
