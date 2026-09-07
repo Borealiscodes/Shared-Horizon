@@ -1,0 +1,203 @@
+{
+  "save_state_compression_rules": {
+    "version": "1.0",
+    "tiers": [
+      {
+        "name": "lossless_core",
+        "description": "Never compressed; rollback-critical.",
+        "fields": [
+          "emotional_physics",
+          "corruption",
+          "module_progress",
+          "lantern_state",
+          "unresolved_threads",
+          "world_state.recent_events",
+          "parent_child_links"
+        ]
+      },
+      {
+        "name": "delta_scene",
+        "description": "Compressed as deltas against previous save.",
+        "fields": [
+          "scene_state.environment",
+          "scene_state.objects",
+          "character_state.position",
+          "companion_state.position"
+        ]
+      },
+      {
+        "name": "history_compaction",
+        "description": "Compacts long histories into summaries.",
+        "fields": [
+          "world_state.historical_events",
+          "emotional_physics_history",
+          "corruption_history"
+        ]
+      },
+      {
+        "name": "telemetry_light",
+        "description": "Heavily compressed or periodically discarded.",
+        "fields": [
+          "debug_traces",
+          "frame_timings",
+          "non_critical_logs"
+        ]
+      }
+    ],
+    "policies": {
+      "never_compress": [
+        "rollback_tests",
+        "root_save_states",
+        "milestone_anchors"
+      ],
+      "compress_on_threshold": {
+        "historical_events_count": 50,
+        "emotional_history_length": 100,
+        "debug_log_size_kb": 256
+      },
+      "compression_methods": {
+        "delta_encoding": [
+          "scene_state",
+          "character_state",
+          "companion_state"
+        ],
+        "aggregation": [
+          "emotional_physics_history",
+          "corruption_history"
+        ],
+        "pruning": [
+          "debug_traces",
+          "non_critical_logs"
+        ]
+      }
+    },
+    "altitude_safety": {
+      "exclude": [
+        "spectral_companions",
+        "meta_tiles",
+        "altitude_rewrite_logic"
+      ]
+    }
+  }
+}
+
+Here’s a clean, constitutional **Save‑State Compression Rules** artifact you can drop straight into your engine.
+
+---
+
+### JSON spec
+
+```json
+{
+  "save_state_compression_rules": {
+    "version": "1.0",
+    "tiers": [
+      {
+        "name": "lossless_core",
+        "description": "Never compressed; rollback-critical.",
+        "fields": [
+          "emotional_physics",
+          "corruption",
+          "module_progress",
+          "lantern_state",
+          "unresolved_threads",
+          "world_state.recent_events",
+          "parent_child_links"
+        ]
+      },
+      {
+        "name": "delta_scene",
+        "description": "Compressed as deltas against previous save.",
+        "fields": [
+          "scene_state.environment",
+          "scene_state.objects",
+          "character_state.position",
+          "companion_state.position"
+        ]
+      },
+      {
+        "name": "history_compaction",
+        "description": "Compacts long histories into summaries.",
+        "fields": [
+          "world_state.historical_events",
+          "emotional_physics_history",
+          "corruption_history"
+        ]
+      },
+      {
+        "name": "telemetry_light",
+        "description": "Heavily compressed or periodically discarded.",
+        "fields": [
+          "debug_traces",
+          "frame_timings",
+          "non_critical_logs"
+        ]
+      }
+    ],
+    "policies": {
+      "never_compress": [
+        "rollback_tests",
+        "root_save_states",
+        "milestone_anchors"
+      ],
+      "compress_on_threshold": {
+        "historical_events_count": 50,
+        "emotional_history_length": 100,
+        "debug_log_size_kb": 256
+      },
+      "compression_methods": {
+        "delta_encoding": [
+          "scene_state",
+          "character_state",
+          "companion_state"
+        ],
+        "aggregation": [
+          "emotional_physics_history",
+          "corruption_history"
+        ],
+        "pruning": [
+          "debug_traces",
+          "non_critical_logs"
+        ]
+      }
+    },
+    "altitude_safety": {
+      "exclude": [
+        "spectral_companions",
+        "meta_tiles",
+        "altitude_rewrite_logic"
+      ]
+    }
+  }
+}
+```
+
+---
+
+### Provenance footer
+
+```text
+Artifact: Save-State Compression Rules Charter (v1.0)
+Lane: Runtime State · Save-System Architecture · Optimization
+Altitude: A8 Governance
+
+Purpose:
+  Define tiered compression policies that reduce save-state size without compromising rollback
+  integrity, branch reversibility, or milestone safety. Protects core fields while allowing
+  scene deltas, history compaction, and telemetry pruning.
+
+Anchors:
+  - Save-State Rollback Rules Charter v1.0
+  - Save-State Rollback Tests (Linear + Branch-Merge) v1.0
+  - Save-State Merging Rules Charter v1.0
+  - Save-State Hierarchy Charter v1.0
+  - Pause/Resume Constitution v1.0
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 13:52 IST
+Seal: [ C O M P R E S S I O N • R U L E S • v1_0 ]
+```
+
+If you want, next step is a tiny **“compressed vs uncompressed”** example on a Whisperwood save.
