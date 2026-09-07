@@ -1,0 +1,187 @@
+# 🧭 **SAVE‑STATE ROLLBACK RULES CHARTER (v1.0)**  
+*A8 Governance · Runtime Persistence · Inversion Logic*
+
+Rollback rules define **how to reverse a merge**, restoring:
+
+- emotional physics  
+- corruption tiers  
+- module progress  
+- world‑state  
+- lantern state  
+- unresolved threads  
+- parent/child relationships  
+
+Rollback is the **inverse** of merging.
+
+---
+
+# 🜁 **Rollback Types**
+
+Each rollback type begins with a Guided Link.
+
+### 1. **Linear Rollback**  
+Undo a leaf → branch merge.
+
+### 2. **Branch Rollback**  
+Undo a branch → branch convergence.
+
+### 3. **Milestone Rollback**  
+Undo a milestone‑forced merge.
+
+---
+
+# 🜂 **Rollback Priority Rules**
+
+Rollback uses the **reverse** of merge priorities.
+
+### **1. Milestone Priority (Inverse)**  
+Non‑milestone data overrides milestone‑anchored merge effects.
+
+### **2. Emotional Physics Priority (Inverse)**  
+Lower‑intensity emotional physics values override merged weighted averages.
+
+### **3. Corruption Priority (Inverse)**  
+Lower corruption tier overrides merged max‑value.
+
+### **4. Module Priority (Inverse)**  
+Earlier module progress overrides merged highest‑value.
+
+### **5. Scene Priority (Inverse)**  
+Older scene state overrides newer merged state.
+
+### **6. Thread Priority (Inverse)**  
+Unresolved threads are **de‑unioned**:
+- remove threads introduced by merge  
+- restore original thread sets  
+
+---
+
+# 🜃 **Rollback Conflict Resolution**
+
+Rollback must restore the **original values** from each save‑state.
+
+### Emotional Physics  
+Undo weighted average → restore original values from each parent.
+
+### Corruption  
+Undo max → restore original corruption levels.
+
+### World‑State  
+Undo recency → restore original event ordering.
+
+### Module Progress  
+Undo highest → restore original progress values.
+
+### Lantern State  
+Undo hierarchical override → restore original lantern states.
+
+### Unresolved Threads  
+Undo union → restore original thread sets.
+
+---
+
+# 🜄 **Rollback of the Merged Example**
+
+Using the merged example you generated:
+
+### Emotional Physics  
+Merged: karuna 0.62 → rollback to  
+- Branch A: 0.55  
+- Leaf B: 0.68  
+
+### Corruption  
+Merged: 0.12 → rollback to  
+- Branch A: 0.10  
+- Leaf B: 0.12  
+
+### Module Progress  
+Merged: 0.47 → rollback to  
+- Branch A: 0.44  
+- Leaf B: 0.47  
+
+### Lantern  
+Merged: pulsing → rollback to  
+- Branch A: cracked  
+- Leaf B: pulsing  
+
+### Threads  
+Merged: ["identity_of_silhouette", "child_reaction_analysis"] → rollback to  
+- Branch A: ["identity_of_silhouette"]  
+- Leaf B: ["child_reaction_analysis"]
+
+This is the **actual inversion** of your merged example.
+
+---
+
+# 🜅 **JSON Specification — Save‑State Rollback Rules (v1.0)**
+
+```json
+{
+  "save_state_rollback_rules": {
+    "version": "1.0",
+    "rollback_types": [
+      {
+        "name": "linear_rollback",
+        "description": "Undo leaf-to-branch merge",
+        "inverse_priority": ["non_milestone", "lower_emotional_physics", "older_scene"]
+      },
+      {
+        "name": "branch_rollback",
+        "description": "Undo branch-to-branch convergence",
+        "inverse_priority": ["lower_corruption", "earlier_module_progress"]
+      },
+      {
+        "name": "milestone_rollback",
+        "description": "Undo milestone-forced merge",
+        "inverse_priority": ["non_milestone", "original_world_state"]
+      }
+    ],
+    "conflict_resolution_inverse": {
+      "emotional_physics": "restore_original_values",
+      "corruption": "restore_original_values",
+      "world_state": "restore_original_order",
+      "module_progress": "restore_original_values",
+      "character_position": "restore_original_position",
+      "lantern_state": "restore_original_state",
+      "unresolved_threads": "restore_original_sets"
+    },
+    "altitude_safety": {
+      "exclude": [
+        "spectral_companions",
+        "meta_tiles",
+        "altitude_rewrite_logic"
+      ]
+    }
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Save‑State Rollback Rules (v1.0)**
+
+```
+Artifact: Save-State Rollback Rules Charter (v1.0)
+Lane: Runtime State · Save-System Architecture
+Altitude: A8 Governance
+
+Purpose:
+  Provide constitutional inversion logic for save-state merging, enabling reversible branching,
+  stable undo operations, and coherent restoration of emotional physics, corruption tiers,
+  module lineage, and world-state.
+
+Anchors:
+  - Merged Save-State Example v1_0
+  - Save-State Merging Rules Charter v1_0
+  - Save-State Hierarchy Charter v1_0
+  - Pause/Resume Constitution v1_0
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 13:42 IST
+Seal: [ R O L L B A C K • R U L E S • v1_0 ]
+```
+
+---
+
