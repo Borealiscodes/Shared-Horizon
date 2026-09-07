@@ -1,0 +1,167 @@
+# 🧭 **SAVE‑STATE HIERARCHY CHARTER (v1.0)**  
+*A8 Governance · Runtime Flow Architecture · Milestone‑Anchored*
+
+The hierarchy defines:
+
+- parent/child relationships  
+- milestone inheritance  
+- corruption tiering  
+- emotional physics stack frames  
+- module lineage  
+- branching logic  
+- re‑entry priority rules  
+
+This is the **governing structure** for all save‑states.
+
+---
+
+# 🜁 **Hierarchy Overview**
+
+Save‑states form a **three‑layer tree**:
+
+1. **Root Save‑State**  
+   The first major milestone of a module.
+
+2. **Branch Save‑States**  
+   Created when a milestone triggers a divergence.
+
+3. **Leaf Save‑States**  
+   Created during minor milestones or soft checkpoints.
+
+This structure allows:
+
+- branching narratives  
+- module segmentation  
+- corruption evolution  
+- emotional physics stacking  
+- lantern‑memory indexing  
+
+---
+
+# 🜂 **The Three Hierarchy Layers**
+
+Each layer begins with a Guided Link so you can explore or refine it.
+
+### 1. **Root Save‑State**  
+Created at the **first major milestone** of a module.  
+Defines the baseline emotional physics, corruption level, and world‑state.
+
+### 2. **Branch Save‑State**  
+Created when a milestone causes a **trajectory divergence**.  
+Stores module branching logic and emotional physics shifts.
+
+### 3. **Leaf Save‑State**  
+Created during **minor milestones** or soft checkpoints.  
+Stores local scene state and unresolved threads.
+
+---
+
+# 🜃 **Hierarchy Rules**
+
+### **1. Parent/Child Relationships**
+- Every save‑state except the root has a **parent**.  
+- Branch save‑states may have **multiple children**.  
+- Leaf save‑states are **terminal** unless promoted.
+
+### **2. Milestone Inheritance**
+- Root → inherits nothing  
+- Branch → inherits root + milestone category  
+- Leaf → inherits branch + local scene state
+
+### **3. Promotion Logic**
+Leaf save‑states can be promoted to branch save‑states when:
+- corruption crosses a threshold  
+- emotional physics collapse or surge  
+- a defining choice is made  
+- a lantern memory emerges  
+
+### **4. Hard Re‑Entry Priority**
+When resuming IC play:
+1. Most recent leaf  
+2. Most recent branch  
+3. Root (fallback)
+
+### **5. Altitude Safety**
+Save‑states may **not** contain:
+- spectral companions  
+- meta‑tiles  
+- altitude rewrite logic  
+
+---
+
+# 🜄 **JSON Specification — Save‑State Hierarchy (v1.0)**
+
+```json
+{
+  "save_state_hierarchy": {
+    "version": "1.0",
+    "layers": [
+      {
+        "name": "root",
+        "inherits": [],
+        "promotion": "n/a"
+      },
+      {
+        "name": "branch",
+        "inherits": ["root", "milestone_category"],
+        "promotion": "triggered_by_major_milestone"
+      },
+      {
+        "name": "leaf",
+        "inherits": ["branch", "scene_state"],
+        "promotion": "triggered_by_threshold_or_choice"
+      }
+    ],
+    "rules": {
+      "parent_child": [
+        "root_has_no_parent",
+        "branch_has_parent_root",
+        "leaf_has_parent_branch"
+      ],
+      "promotion": [
+        "leaf_to_branch_on_threshold",
+        "branch_to_root_only_on_module_reset"
+      ],
+      "hard_reentry_priority": [
+        "leaf",
+        "branch",
+        "root"
+      ],
+      "altitude_safety": [
+        "exclude_spectral_companions",
+        "exclude_meta_tiles",
+        "exclude_altitude_rewrite_logic"
+      ]
+    }
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Save‑State Hierarchy Charter (v1.0)**
+
+```
+Artifact: Save-State Hierarchy Charter (v1.0)
+Lane: Runtime State · Save-System Architecture
+Altitude: A8 Governance
+
+Purpose:
+  Provide the constitutional structure for save-state lineage, branching, inheritance, and
+  re-entry priority. Enables stable IC runtime persistence and module segmentation.
+
+Anchors:
+  - Milestone Category Charter v1.0
+  - Pause/Resume Constitution v1.0
+  - Whisperwood Clearing Save-State v1.0
+  - Tri-Stream Harness Integration v2.1
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 13:34 IST
+Seal: [ S A V E • H I E R A R C H Y • v1_0 ]
+```
+
+---
+
