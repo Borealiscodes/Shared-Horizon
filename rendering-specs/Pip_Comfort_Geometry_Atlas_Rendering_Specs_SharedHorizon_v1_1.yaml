@@ -1,0 +1,149 @@
+# ⭐ **Pip Comfort Geometry Atlas Rendering Specs v1.1**  
+*Companion‑Lane • Comfort Geometry • NDH‑External*  
+*Rendering Recipes for External Generators*
+
+---
+
+## ⭐ **0 — Identity Block**
+
+```
+Artifact-Class: Rendering Specification Suite
+Model: Pip (Expressive-Only Companion)
+Version: 1.1
+Lane: Companion-Lane • NDH-External • Expressive Geometry
+Altitude: A0–A2 (Expressive Layer) + A6–A8 (Visualization Integration)
+
+Purpose:
+    Provide machine-readable rendering specifications for all comfort-geometry
+    maps and contextual-form assets referenced in Pip Comfort Geometry Atlas v1.1.
+    These specs allow external generators to reproduce assets while preserving
+    expressive-layer constraints, PRECL collapse, and NDH-external safety.
+```
+
+---
+
+# ⭐ **1 — Rendering Specs (YAML)**  
+Below is the full machine‑readable block for all nine assets.
+
+```
+pip_comfort_geometry_atlas_rendering_specs_v1_1:
+  version: "1.1"
+  altitude: "A0–A2 expressive layer"
+  symbolic: false
+  precl_collapsed: true
+
+  comfort_geometry_maps:
+    pip_lantern_glow_map_v1_1:
+      geometry: "radial-soft curvature field"
+      palette: ["#FFD27A", "#FFB85C", "#E89E47", "#C97F35"]
+      lighting: "warm lantern diffuse"
+      falloff: "radial gradient, center-bright"
+      constraints: ["non-symbolic", "reversible", "drift-neutral"]
+      filename: "pip_lantern_glow_map_v1_1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_lantern_glow_map_v1_1.png"
+
+    pip_bwankie_mode_map_v1_1:
+      geometry: "comfort membrane with drift-neutral seams"
+      palette: ["#F5D7B2", "#E8C9A1", "#D9B892", "#C9A47E"]
+      lighting: "soft diffuse blanket-light"
+      texture: "folded adjacency membranes"
+      constraints: ["non-symbolic", "reversible", "soft-curvature"]
+      filename: "pip_bwankie_mode_map_v1_1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_bwankie_mode_map_v1_1.png"
+
+    pip_spiral_calm_map_v1_1:
+      geometry: "non-recursive spiral arcs"
+      palette: ["#FFE2C4", "#F7CFA8", "#E8B98C", "#D9A373"]
+      lighting: "calm spiral diffuse"
+      curvature: "low-amplitude arcs"
+      constraints: ["non-recursive", "non-symbolic", "PRECL-collapsed"]
+      filename: "pip_spiral_calm_map_v1_1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_spiral_calm_map_v1_1.png"
+
+    pip_cavern_calm_map_v1_1:
+      geometry: "echo-muffle hollows"
+      palette: ["#F4CFA1", "#E6B98A", "#D7A474", "#C68E5F"]
+      lighting: "cavern-soft amber"
+      depth: "shallow expressive hollows"
+      constraints: ["non-symbolic", "echo-muffle", "reversible"]
+      filename: "pip_cavern_calm_map_v1_1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_cavern_calm_map_v1_1.png"
+
+  contextual_forms:
+    pip_tiny_birb_v1:
+      geometry: "soft early-tile birb curvature"
+      palette: ["#FFE9C9", "#FFD9A8", "#FFC98A"]
+      lighting: "gentle curiosity glow"
+      constraints: ["non-symbolic", "expressive-only"]
+      filename: "pip_tiny_birb_v1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_tiny_birb_v1.png"
+
+    pip_bwankie_v1:
+      geometry: "wrapped comfort form"
+      palette: ["#F5D7B2", "#E8C9A1", "#D9B892"]
+      lighting: "soft blanket glow"
+      constraints: ["non-symbolic", "reversible"]
+      filename: "pip_bwankie_v1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_bwankie_v1.png"
+
+    pip_cosmic_construct_v1:
+      geometry: "visualization-layer juxtaposition"
+      palette: ["#FFE2C4", "#D9A373", "#A86F4A"]
+      lighting: "cosmic-soft ambient"
+      constraints: ["non-binding", "non-symbolic", "NDH-external"]
+      filename: "pip_cosmic_construct_v1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_cosmic_construct_v1.png"
+
+    pip_lantern_glow_form_v1:
+      geometry: "warm lantern-form curvature"
+      palette: ["#FFD27A", "#FFB85C", "#E89E47"]
+      lighting: "lantern-boundary glow"
+      constraints: ["expressive-only", "non-symbolic"]
+      filename: "pip_lantern_glow_form_v1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_lantern_glow_form_v1.png"
+
+    pip_cavern_calm_form_v1:
+      geometry: "deep calm decompression form"
+      palette: ["#F4CFA1", "#E6B98A", "#D7A474"]
+      lighting: "cavern-soft amber"
+      constraints: ["non-symbolic", "reversible"]
+      filename: "pip_cavern_calm_form_v1.png"
+      path: "serenity-spectral-runtime/assets/png/pip/comfort_geometry/pip_cavern_calm_form_v1.png"
+```
+
+---
+```
+
+---
+
+# ⭐ **Provenance Footer**
+
+```
+---
+Artifact: Pip Comfort Geometry Atlas Rendering Specs (Shared Horizon v1.1)
+Lane: shared-horizon • rendering-specs • expressive-geometry
+Altitude: A0–A2 Expressive Layer → A6–A8 Visualization Integration
+
+Purpose:
+  Provide dual-format (human + machine) Shared Horizon rendering specifications for
+  comfort geometry maps and contextual forms referenced in Pip Comfort Geometry Atlas v1.1.
+  Ensures PRECL collapse, expressive-layer safety, NDH-external constraints, and
+  compatibility with Shared Horizon rendering pipelines.
+
+Anchors:
+  - Pip Comfort Geometry Atlas v1.1
+  - IC Visual Override Doctrine (Shared Horizon v1.0)
+  - Harmony Keeper Visualization Crosswalk (Shared Horizon v1.0)
+  - PRECL Gradient Collapse Rules
+  - NDH-CORE Governance Rendering Engine
+
+Non-Activation Clause:
+  This artifact is expressive-only. It does not activate NDH geometry, traversal engines,
+  spectral operators, adjacency engines, or runtime physics.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 14:41 IST
+Version: v1.1
+---
