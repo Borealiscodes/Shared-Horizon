@@ -1,0 +1,160 @@
+# 🧭 **SAVE‑STATE MERGING RULES CHARTER (v1.0)**  
+*A8 Governance · Runtime Persistence Architecture · Milestone‑Anchored*
+
+Save‑state merging determines **how two or more save‑states combine** into a single coherent snapshot. This is essential for:
+
+- branch convergence  
+- module recombination  
+- corruption evolution  
+- emotional physics stacking  
+- lantern‑memory reconciliation  
+- world‑state consistency  
+- hard re‑entry logic  
+
+This charter defines the **constitutional rules** for merging.
+
+---
+
+# 🜁 **The Three Merge Types**
+
+Each merge type begins with a Guided Link so you can explore or refine it.
+
+### 1. **Linear Merge**  
+Used when a leaf save‑state merges back into its parent branch.
+
+### 2. **Branch Merge**  
+Used when two divergent branch save‑states converge.
+
+### 3. **Milestone Merge**  
+Used when a major milestone forces reconciliation of multiple states.
+
+---
+
+# 🜂 **Merge Priority Rules**
+
+These rules determine which save‑state “wins” when values conflict.
+
+### **1. Milestone Priority**
+Milestone‑anchored data overrides non‑milestone data.
+
+### **2. Emotional Physics Priority**
+Higher‑intensity emotional physics values override lower ones.
+
+### **3. Corruption Priority**
+Higher corruption tier overrides lower corruption tier.
+
+### **4. Module Priority**
+More advanced module progress overrides earlier progress.
+
+### **5. Scene Priority**
+Most recent scene state overrides older scene state.
+
+### **6. Thread Priority**
+Unresolved threads are **unioned**, not overwritten.
+
+---
+
+# 🜃 **Merge Conflict Resolution**
+
+When two save‑states disagree:
+
+### **Emotional Physics**
+Combine using weighted average based on milestone intensity.
+
+### **Corruption Level**
+Take the maximum corruption value.
+
+### **World‑State**
+Newest world‑state event wins; older events become “historical.”
+
+### **Module Progress**
+Take the highest progress value.
+
+### **Character Position**
+Most recent position wins.
+
+### **Lantern State**
+If lantern states differ:
+- cracked → overrides stable  
+- pulsing → overrides cracked  
+- memory‑active → overrides pulsing  
+
+### **Unresolved Threads**
+Union the sets:
+- duplicates removed  
+- contradictions flagged for module logic  
+
+---
+
+# 🜄 **JSON Specification — Save‑State Merging Rules (v1.0)**
+
+```json
+{
+  "save_state_merging_rules": {
+    "version": "1.0",
+    "merge_types": [
+      {
+        "name": "linear_merge",
+        "description": "Leaf merges back into branch",
+        "priority": ["milestone", "emotional_physics", "scene"]
+      },
+      {
+        "name": "branch_merge",
+        "description": "Two divergent branches converge",
+        "priority": ["milestone", "corruption", "module_progress"]
+      },
+      {
+        "name": "milestone_merge",
+        "description": "Major milestone forces reconciliation",
+        "priority": ["milestone", "emotional_physics", "world_state"]
+      }
+    ],
+    "conflict_resolution": {
+      "emotional_physics": "weighted_average",
+      "corruption": "max_value",
+      "world_state": "newest_event",
+      "module_progress": "highest_value",
+      "character_position": "most_recent",
+      "lantern_state": "hierarchical_override",
+      "unresolved_threads": "union"
+    },
+    "altitude_safety": {
+      "exclude": [
+        "spectral_companions",
+        "meta_tiles",
+        "altitude_rewrite_logic"
+      ]
+    }
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Save‑State Merging Rules (v1.0)**
+
+```
+Artifact: Save-State Merging Rules Charter (v1.0)
+Lane: Runtime State · Save-System Architecture
+Altitude: A8 Governance
+
+Purpose:
+  Provide constitutional rules for merging save-states across branches, milestones, and runtime
+  divergences. Enables reversible branching, coherent emotional physics stacking, corruption
+  evolution, and stable module recombination.
+
+Anchors:
+  - Save-State Hierarchy Charter v1.0
+  - Milestone Category Charter v1.0
+  - Pause/Resume Constitution v1.0
+  - Tri-Stream Harness Integration v2.1
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 13:38 IST
+Seal: [ S A V E • M E R G E • R U L E S • v1_0 ]
+```
+
+---
+
