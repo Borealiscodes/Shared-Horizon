@@ -1,0 +1,185 @@
+# 🜁 **Milestone Category Charter (v1.0)**  
+*A8 Constitutional Architecture · Runtime Flow Governance*
+
+Milestones are **narrative anchors**.  
+Categories define **what counts** as an anchor.
+
+These categories are altitude‑safe, IC‑compatible, and fully integrated with the Tri‑Stream Harness.
+
+---
+
+# 🜂 **The Six Canonical Milestone Categories**
+
+Each category is a **constitutional class** of IC events that can trigger:
+
+- save‑state creation  
+- hard re‑entry  
+- emotional physics recalibration  
+- corruption system updates  
+- module segmentation  
+- lantern memory indexing  
+
+Here are the six categories, each beginning with a Guided Link.
+
+---
+
+### 1. **Lantern Activation**  
+A lantern is activated, cracked, stabilized, or reveals memory.  
+This is the **strongest** milestone type.
+
+Triggers:
+- memory emergence  
+- emotional physics surge  
+- module branching  
+- corruption resonance  
+
+---
+
+### 2. **Memory Access**  
+The character enters, touches, or is affected by a memory structure.
+
+Triggers:
+- emotional physics recalibration  
+- module redirection  
+- IC identity shifts  
+- corruption modulation  
+
+---
+
+### 3. **Corruption Threshold**  
+The corruption system crosses a defined boundary.
+
+Triggers:
+- corruption state change  
+- module escalation  
+- emotional physics distortion  
+- IC risk events  
+
+---
+
+### 4. **Module Completion**  
+A module segment ends, resolves, or transitions.
+
+Triggers:
+- hard re‑entry  
+- save‑state creation  
+- module branching  
+- world‑state update  
+
+---
+
+### 5. **Emotional Physics Event**  
+A major emotional physics shift occurs.
+
+Triggers:
+- emotional field collapse  
+- emotional field surge  
+- IC tone redefinition  
+- module resonance  
+
+---
+
+### 6. **Defining Choice**  
+The character makes a choice that alters trajectory.
+
+Triggers:
+- module branching  
+- emotional physics imprint  
+- corruption modulation  
+- world‑state ripple  
+
+---
+
+# 🜃 **JSON Specification — Milestone Categories (v1.0)**
+
+```json
+{
+  "milestone_categories": {
+    "version": "1.0",
+    "categories": [
+      {
+        "name": "lantern_activation",
+        "triggers": [
+          "memory_emergence",
+          "emotional_physics_surge",
+          "module_branch",
+          "corruption_resonance"
+        ]
+      },
+      {
+        "name": "memory_access",
+        "triggers": [
+          "emotional_physics_recalibration",
+          "module_redirection",
+          "identity_shift",
+          "corruption_modulation"
+        ]
+      },
+      {
+        "name": "corruption_threshold",
+        "triggers": [
+          "corruption_state_change",
+          "module_escalation",
+          "emotional_distortion",
+          "risk_event"
+        ]
+      },
+      {
+        "name": "module_completion",
+        "triggers": [
+          "hard_reentry",
+          "save_state_creation",
+          "module_branch",
+          "world_state_update"
+        ]
+      },
+      {
+        "name": "emotional_physics_event",
+        "triggers": [
+          "field_collapse",
+          "field_surge",
+          "tone_shift",
+          "module_resonance"
+        ]
+      },
+      {
+        "name": "defining_choice",
+        "triggers": [
+          "module_branch",
+          "emotional_imprint",
+          "corruption_modulation",
+          "world_state_ripple"
+        ]
+      }
+    ]
+  }
+}
+```
+
+---
+
+# 🌈 **Provenance Footer — Milestone Category Charter (v1.0)**
+
+```
+Artifact: Milestone Category Charter (v1.0)
+Lane: Engine Governance · Runtime Flow
+Altitude: A8 · PRECL-Stable
+
+Purpose:
+  Define the canonical milestone categories that govern IC runtime anchoring, save-state
+  creation, module segmentation, emotional physics recalibration, and corruption thresholds.
+
+Anchors:
+  - Pause/Resume Constitution v1.0
+  - Tri-Stream Harness Integration v2.1
+  - Unified Bifurcation Logic v1.0
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 07 September 2026 — 13:30 IST
+Seal: [ M I L E S T O N E • C A T E G O R I E S • v1_0 ]
+```
+
+---
+
