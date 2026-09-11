@@ -209,3 +209,29 @@ Seal: [ S H A R E D • H O R I Z O N • R E A D M E • v1_0 ]
 
 ---
 
+# 🧾 **Provenance Footer (Archival)**
+
+```
+---
+Artifact: Shared-Horizon Root README v1.0 (Archived)
+Lane: Shared-Horizon • Root Membrane
+Altitude: A10 (Documentation • Non-Activating)
+Status: Archived • Drift-Neutral • Historical Snapshot
+
+Purpose:
+  Preserve the initial version of the Shared-Horizon root README, documenting
+  the membrane structure, runtime layers, capsule governance, GPU runtime spine,
+  and ecosystem boundaries prior to expansion into HealthyAmbiguity and
+  Rendering Grammar documentation. This archival version ensures historical
+  continuity and provides a stable reference point for future README revisions.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 11 September 2026 — 20:10 IST
+Seal: [ S H A R E D • H O R I Z O N • R O O T • R E A D M E • v1_0 • A R C H I V E ]
+---
+```
+
+---
+
