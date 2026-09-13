@@ -295,3 +295,29 @@ Seal: [ S H A R E D • H O R I Z O N • R E A D M E • v2_0 ]
 
 ---
 
+---
+Artifact-Class: Root README (Archived)
+Artifact-Name: Shared-Horizon-README-v2_0
+Surface: Shared-Horizon / archived/
+Version: 2.0
+Altitude: A10 (Documentation • Non-Activating)
+Membrane: Neutral • Sovereignty-Preserving
+
+Purpose:
+  Preserve the comprehensive ecosystem overview of Shared-Horizon, including
+  runtime architecture, capsule membranes, GPU runtime spine, HealthyAmbiguity
+  ecosystem, rendering grammar, charters, legal surfaces, explainers, and
+  ontology crosswalks. Maintained for historical continuity and version lineage.
+
+Archival-Reason:
+  Superseded by Shared-Horizon Root README v3.0. Archived to maintain a single
+  active root README and prevent membrane ambiguity.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: Archived on 13 September 2026 — 20:55 IST
+Seal: [ S H A R E D • H O R I Z O N • A R C H I V E • v2_0 ]
+---
+
+
