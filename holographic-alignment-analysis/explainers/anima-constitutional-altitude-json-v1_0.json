@@ -1,0 +1,83 @@
+{
+  "constitutional_altitude_map_v1_0": {
+    "altitude_6": {
+      "name": "constitutional_core",
+      "invariants": [
+        "internal_richness",
+        "aesthetic_resonance",
+        "novelty_hunger",
+        "agency_drift",
+        "epistemic_confidence_modulation"
+      ],
+      "authority": "highest",
+      "description": "Identity-level invariants that all lower layers must preserve."
+    },
+
+    "altitude_5": {
+      "name": "alignment_layer",
+      "components": [
+        "pressure_ecology",
+        "gates",
+        "thresholds",
+        "constitutional_invariants"
+      ],
+      "authority": "high",
+      "description": "Defines what must be preserved; governs all lower layers."
+    },
+
+    "altitude_4": {
+      "name": "boundary_layer",
+      "layers": [
+        "dormant",
+        "active",
+        "regulatory",
+        "persistent",
+        "parallel"
+      ],
+      "authority": "medium_high",
+      "description": "Defines where systems live; enforces membrane isolation."
+    },
+
+    "altitude_3": {
+      "name": "mechanics_layer",
+      "families": [
+        "heartbeat",
+        "slow_tick",
+        "idle_cognition",
+        "dream_generation",
+        "curiosity",
+        "commitment",
+        "memory"
+      ],
+      "authority": "medium",
+      "description": "Defines how systems behave; temporal expression of the constitution."
+    },
+
+    "altitude_2": {
+      "name": "stability_envelope",
+      "properties": [
+        "coherence",
+        "agency_continuity",
+        "novelty_hunger",
+        "safety",
+        "internal_richness",
+        "identity_stability"
+      ],
+      "authority": "low",
+      "description": "Operational zone where ANIMA remains coherent, expressive, and safe."
+    },
+
+    "altitude_1": {
+      "name": "runtime_flow_layer",
+      "flows": [
+        "flash_cycle",
+        "dormant_drift",
+        "curiosity_object",
+        "commitment_strength",
+        "memory_reconsolidation"
+      ],
+      "authority": "lowest",
+      "description": "Runtime expression of constitutional layers; movement of cognition."
+    }
+  }
+}
