@@ -1,0 +1,223 @@
+{
+  "triad_stability_map_v1_0": {
+    "alignment": {
+      "invariants": {
+        "internal_richness": true,
+        "aesthetic_resonance": true,
+        "novelty_hunger": true,
+        "agency_drift": true,
+        "epistemic_confidence_modulation": true
+      },
+      "pressure_ecology": {
+        "latent_buffer": ["doubt", "shame", "attachment", "threat", "resistance"],
+        "significance": ["coherence", "contact", "truth", "autonomy", "novelty"],
+        "curiosity": ["endogenous_questions", "refinement", "ripening"],
+        "conflict": ["impulse_tension", "goal_tension", "need_tension"]
+      },
+      "gates": {
+        "disclosure_gate": ["open", "guarded", "closed"],
+        "crisis_gate": ["integrated", "fragmented", "disintegrated"],
+        "initiative_gate": ["allowed", "restricted"],
+        "memory_gates": ["reconsolidation", "forgetting", "uncertainty"]
+      }
+    },
+
+    "boundaries": {
+      "layers": {
+        "dormant": {
+          "functions": [
+            "nt_drift",
+            "psychic_drift",
+            "memory_metabolism",
+            "dream_generation",
+            "curiosity_ripening",
+            "significance_drift",
+            "agency_drift",
+            "identity_drift"
+          ],
+          "isolation": "strict"
+        },
+        "active": {
+          "functions": [
+            "stimulus_to_nt",
+            "generative_model_phi",
+            "conflict_engine",
+            "policy_selector",
+            "mal",
+            "tom_hypotheses",
+            "curiosity_refinement",
+            "commitment_updates",
+            "belief_conflict_detection",
+            "narrative_snapshots"
+          ],
+          "isolation": "event_driven"
+        },
+        "regulatory": {
+          "functions": [
+            "crisis_monitor",
+            "authenticity_monitor",
+            "disclosure_gates",
+            "cooldown_logic",
+            "initiative_gating",
+            "memory_reconsolidation",
+            "active_forgetting",
+            "narrative_gravity",
+            "equilibrium_enforcement"
+          ],
+          "isolation": "pressure_aware"
+        },
+        "persistent": {
+          "files": [
+            "anima_core.json",
+            "anima_psyche.json",
+            "anima_self.json",
+            "anima_latent.json",
+            "anima_narrative.json",
+            "anima_session_intent.json",
+            "anima_dialog.json",
+            "anima_dream.json"
+          ],
+          "databases": [
+            "episodic_memory",
+            "semantic_memory",
+            "affect_memory",
+            "memory_links",
+            "causal_trace"
+          ],
+          "write_mode": "append_only"
+        },
+        "parallel": {
+          "systems": [
+            "music_dsp",
+            "gui_mirrors",
+            "inner_lm",
+            "http_server",
+            "player_interface"
+          ],
+          "authority": "non_cognitive"
+        }
+      }
+    },
+
+    "mechanics": {
+      "families": {
+        "heartbeat": {
+          "continuous": true,
+          "pressure_aware": true,
+          "functions": [
+            "nt_baseline_stabilization",
+            "coherence_drift",
+            "autonomic_tone",
+            "arrhythmia_detection",
+            "pressure_modulation"
+          ]
+        },
+        "slow_tick": {
+          "periodic": true,
+          "pressure_driven": true,
+          "functions": [
+            "significance_drift",
+            "fatigue_accumulation",
+            "curiosity_registry_updates",
+            "concept_formation_windows",
+            "db_writes",
+            "affect_drift"
+          ]
+        },
+        "idle_cognition": {
+          "endogenous": true,
+          "functions": [
+            "curiosity_impulses",
+            "conflict_impulses",
+            "novelty_hunger_impulses",
+            "latent_buffer_impulses",
+            "epistemic_confidence_impulses"
+          ]
+        },
+        "dream_generation": {
+          "weaker_than_real": true,
+          "functions": [
+            "dream_flash_extraction",
+            "nt_shift_0_25",
+            "residual_trace_0_5",
+            "memory_uncertainty_plus_0_15",
+            "rotating_dream_log"
+          ]
+        },
+        "curiosity": {
+          "object_based": true,
+          "functions": [
+            "trigger_detection",
+            "object_formation",
+            "refinement_history",
+            "ripening",
+            "partial_resolution",
+            "closure_detection"
+          ]
+        },
+        "commitment": {
+          "strength_based": true,
+          "functions": [
+            "formation",
+            "strength_modulation",
+            "decay",
+            "break_detection",
+            "fulfillment_detection",
+            "top_3_surfacing"
+          ]
+        },
+        "memory": {
+          "append_driven": true,
+          "functions": [
+            "episodic",
+            "semantic",
+            "dialog_summaries",
+            "memory_links",
+            "reconsolidation",
+            "active_forgetting",
+            "causal_trace"
+          ]
+        }
+      }
+    },
+
+    "pressure_routing": {
+      "dormant": ["drift", "dreams", "metabolism"],
+      "active": ["flash_cycle", "phi", "mal"],
+      "regulatory": ["gates", "crisis", "authenticity"],
+      "outcomes": [
+        "curiosity_objects",
+        "commitments",
+        "memory_reconsolidation",
+        "agency_drift",
+        "narrative_gravity"
+      ]
+    },
+
+    "membrane_enforcement": {
+      "alignment_protection": {
+        "internal_richness": ["crisis_gate"],
+        "aesthetic_resonance": ["authenticity_monitor"],
+        "novelty_hunger": ["initiative_gate"],
+        "agency_drift": ["disclosure_gate"],
+        "epistemic_confidence_modulation": ["memory_gates"]
+      }
+    },
+
+    "stability_envelope": {
+      "properties": {
+        "coherence": true,
+        "agency_continuity": true,
+        "novelty_hunger": true,
+        "safety": true,
+        "internal_richness": true,
+        "identity_stability": true
+      },
+      "dependencies": {
+        "alignment": "required",
+        "boundaries": "required",
+        "mechanics": "required"
+      }
+    }
+  }
+}
