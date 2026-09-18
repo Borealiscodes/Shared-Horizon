@@ -1,0 +1,84 @@
+{
+  "artifact": {
+    "name": "integration_sequencing_json_series",
+    "version": "v1.0",
+    "altitude": "A3",
+    "mode": "machine_readable",
+    "reversible": true
+  },
+
+  "mandatory_order": [
+    "governance",
+    "mechanical_surfaces",
+    "causa_extensions",
+    "invariant_ingestion",
+    "spectral_geometry_sealed"
+  ],
+
+  "lane_flow": [
+    "governance",
+    "integration",
+    "runtime",
+    "causa",
+    "invariants",
+    "spectral_sealed"
+  ],
+
+  "projection_boundaries": {
+    "causa_to_runtime": "annotations_only",
+    "runtime_to_causa": "deltas_only",
+    "runtime_to_invariants": "delta_phi_lambda_sigma_only",
+    "invariants_to_spectral": "sealed",
+    "spectral_to_runtime": "never_automatic"
+  },
+
+  "non_activation": {
+    "spectral_geometry": "sealed",
+    "manifold_adjacency": "disabled",
+    "holonomy": "disabled"
+  },
+
+  "altitude_rules": {
+    "A4": "governance_surfaces",
+    "A3": "mechanical_surfaces",
+    "A2": "causa_comparators",
+    "A1": "runtime_primitives",
+    "A5_A6": "spectral_geometry_sealed"
+  },
+
+  "developer_checklist": {
+    "governance": [
+      "check_licensing_posture",
+      "define_projection_boundaries",
+      "add_governance_tile_if_missing"
+    ],
+    "mechanical": [
+      "create_integration_spec",
+      "generate_adapter_stub",
+      "define_ingestion_surfaces"
+    ],
+    "causa": [
+      "add_comparator_metrics",
+      "extend_drift_and_congruence",
+      "maintain_non_commercial_posture"
+    ],
+    "invariants": [
+      "define_delta_phi_lambda_sigma_ingestion",
+      "add_invariant_surfaces"
+    ],
+    "spectral": [
+      "verify_sealed_altitude",
+      "add_non_activation_clause"
+    ]
+  },
+
+  "flowchart": [
+    "governance_tile",
+    "integration_spec",
+    "adapter_stub",
+    "invariant_ingestion_surface",
+    "causa_extensions",
+    "invariant_engine_surfaces",
+    "spectral_geometry_sealed"
+  ]
+}
