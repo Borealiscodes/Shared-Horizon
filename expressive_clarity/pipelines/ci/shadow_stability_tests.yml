@@ -1,0 +1,33 @@
+name: Shadow Stability Tests
+
+on:
+  push:
+    paths:
+      - "Shared-Horizon/expressive_clarity/pipelines/**"
+  pull_request:
+    paths:
+      - "Shared-Horizon/expressive_clarity/pipelines/**"
+
+jobs:
+  test-shadow-stability:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+
+      - name: Run shadow stability test suite
+        run: |
+          pytest Shared-Horizon/expressive_clarity/pipelines/tests/test_shadow_stability.py \
+            --disable-warnings \
+            -q
