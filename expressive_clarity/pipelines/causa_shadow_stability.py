@@ -1,17 +1,61 @@
 """
-causa_shadow_stability.py
+README.md — causa_shadow_stability.py
 Version: 1.0
 Author: Borealis S. Hedling
 Compiler: Microsoft Copilot
 
 Purpose:
-    Deterministic, comparator-safe Python implementation of the shadow vector,
-    stability metrics, indexed stability ledger, cross-run delta analyzer, and
-    delta ledger. No NDH geometry, no adjacency engines, no expressive content.
-    Pure numbers, pure drift.
+    Deterministic, falsifiable, comparator-safe Python implementation of the
+    shadow vector, stability signatures, indexed stability ledger, cross-run
+    delta analyzer, and delta ledger. No NDH geometry, no adjacency engines,
+    no expressive content. Pure numerical functions, pure drift.
 
-Core model:
-    M(θ) = -ε[cos(kθ) + sin(kθ)]
+Core Model:
+    $$ 
+    M(\theta) = -\epsilon[\cos(k\theta) + \sin(k\theta)] 
+    $$
+
+Falsifiable Claims:
+    - Boundedness:
+        $$
+        |M(\theta)| \le \epsilon\sqrt{2}
+        $$
+    - Periodicity:
+        $$
+        M(\theta + 2\pi) = M(\theta)
+        $$
+    - Zero-mean over full period:
+        $$
+        \int_0^{2\pi} M(\theta)\, d\theta = 0
+        $$
+    - Variance positivity:
+        $$
+        \sigma^2 \ge 0
+        $$
+    - Class ordering:
+        STABLE < MARGINAL < UNSTABLE
+    - Delta correctness:
+        $$
+        \Delta S = S_2 - S_1
+        $$
+
+Design Principles:
+    - Deterministic: no randomness, no external state.
+    - Falsifiable: every computation independently verifiable.
+    - Comparator-safe: no expressive content, no NDH activation.
+    - Pipeline-friendly: pure functions, serializable outputs.
+    - Altitude-neutral: readable by any engineer.
+
+Non-Activation Clause:
+    This module does not activate NDH geometry, adjacency engines, resonance
+    propagation, solver pathways, guardian modulation, or PRECL collapse.
+    All computations are bounded numerical functions.
+
+Provenance:
+    Shared-Horizon/expressive_clarity/pipelines/README.md
+    Maintainer: Borealis S. Hedling
+    Location: Dublin, Ireland
+    Seal: [ R E A D M E • S H A D O W • S T A B I L I T Y • v1_0 ]
 """
 
 from __future__ import annotations
@@ -217,7 +261,6 @@ def compute_delta_signature(
     if class_shift < 0:
         delta_class = DeltaClass.IMPROVED
     elif class_shift > 0:
-        # degraded or escalated depending on amplitude/variance
         if abs(amplitude_delta) > escalate_amp_threshold or abs(variance_delta) > escalate_var_threshold:
             delta_class = DeltaClass.ESCALATED
         else:
@@ -259,20 +302,17 @@ class DeltaLedger:
 
 
 # ---------------------------------------------------------------------------
-# 6. Minimal usage example (for Stell)
+# 6. Minimal usage example
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    # Example: build a few stability signatures
     s1 = compute_stability_signature(epsilon=0.05, k=1, cycles=3)
     s2 = compute_stability_signature(epsilon=0.20, k=2, cycles=5)
     s3 = compute_stability_signature(epsilon=0.35, k=4, cycles=8)
 
-    # Build indexed ledger
     ledger = IndexedStabilityLedger.from_signatures([s1, s2, s3])
     print("Indexed ledger:", ledger.to_dict())
 
-    # Compute deltas and store in delta ledger
     d1 = compute_delta_signature(s1, s2)
     d2 = compute_delta_signature(s2, s3)
 
