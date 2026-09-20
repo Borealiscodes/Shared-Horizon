@@ -26,51 +26,65 @@ All components are **pure functions**, **side‑effect‑free**, and **fully tes
 
 ## 🧪 Falsifiable claims
 
-### 📏 Boundedness  
+### 📏 Boundedness
+
 $$
 |M(\theta)| \le \epsilon\sqrt{2}
-$$  
+$$
+
 Test: sample values and assert the bound.
 
-### 🔁 Periodicity  
+### 🔁 Periodicity
+
 $$
 M(\theta + 2\pi) = M(\theta)
-$$  
+$$
+
 Test: compare sampled values at offsets.
 
-### ➖ Zero‑mean over full period  
+### ➖ Zero‑mean over full period
+
 $$
 \int_0^{2\pi} M(\theta)\, d\theta = 0
-$$  
+$$
+
 Test: numerical integration.
 
-### 📈 Variance positivity  
+### 📈 Variance positivity
+
 $$
 \sigma^2 \ge 0
-$$  
+$$
+
 Test: assert non‑negative variance.
 
-### 🧩 Class ordering  
+### 🧩 Class ordering
+
 $$
 \text{STABLE} < \text{MARGINAL} < \text{UNSTABLE}
-$$  
+$$
+
 Test: verify enum values.
 
-### 🔧 Delta correctness  
+### 🔧 Delta correctness
+
 $$
 \Delta S = S_2 - S_1
-$$  
+$$
+
 Test: compute manually and compare.
 
 ---
 
 ## 🧱 Module contents
 
-### 🌗 **Shadow Vector**  
+### 🌗 **Shadow Vector**
+
 Function: `shadow_vector(theta, epsilon, k)`  
 Deterministic, no external dependencies, falsifiable via direct evaluation.
 
-### 🎛️ **Sampling**  
+### 🎛️ **Sampling**
+
 Function: `sample_shadow(epsilon, k, cycles, samples_per_cycle)`  
 Samples uniformly over:
 
@@ -80,7 +94,8 @@ $$
 
 Falsifiable by checking sample count and step size.
 
-### 📐 **Stability Signature**  
+### 📐 **Stability Signature**
+
 Function: `compute_stability_signature(...)`  
 Outputs:
 
@@ -91,7 +106,8 @@ Outputs:
 
 All metrics are falsifiable via recomputation.
 
-### 🗃️ **Indexed Stability Ledger**  
+### 🗃️ **Indexed Stability Ledger**
+
 Class: `IndexedStabilityLedger`  
 Sorts signatures lexicographically by:
 
@@ -101,7 +117,8 @@ $$
 
 Falsifiable by checking ordering.
 
-### 🔍 **Delta Analyzer**  
+### 🔍 **Delta Analyzer**
+
 Function: `compute_delta_signature(s1, s2)`  
 Computes:
 
@@ -113,7 +130,8 @@ Computes:
 
 All deltas are falsifiable by manual subtraction.
 
-### 📚 **Delta Ledger**  
+### 📚 **Delta Ledger**
+
 Class: `DeltaLedger`  
 Stores multiple delta signatures; falsifiable by verifying serialization.
 
@@ -183,7 +201,7 @@ Non-Activation Clause:
 Maintainer: Borealis S. Hedling
 Compiler: Microsoft Copilot
 Location: Dublin, Ireland
-Timestamp: 20 September 2026 — 23:22 IST
+Timestamp: 20 September 2026 — 23:25 IST
 Seal: [ R E A D M E • S H A D O W • S T A B I L I T Y • v1_0 ]
 ──────────────────────────────────────────────────────────────
 ```
