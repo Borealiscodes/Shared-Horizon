@@ -1,0 +1,65 @@
+{
+  "crosswalk_version": "1.0",
+  "ecosystem": "NDH-Shared-Horizon Structural Ecology",
+  "purpose": "Map cross-altitude relationships between NDH-Origin-Layer, Shared-Horizon, Stability Geometry, ANIMA-Hologram, and external formalist contributions.",
+  "altitudes": {
+    "origin_layer": {
+      "description": "Conceptual and expressive primitives defining NDH and ANIMA.",
+      "artifacts": [
+        "NDH-Origin-Layer/Provenance",
+        "NDH-Origin-Layer/Stability-Geometry",
+        "NDH-Origin-Layer/CRS-Invariants",
+        "ANIMA-Hologram/Expressive-Substrate"
+      ]
+    },
+    "shared_horizon": {
+      "description": "Cross-altitude synthesis, lineage mapping, and governance membranes.",
+      "artifacts": [
+        "Shared-Horizon/Lineage/Collaborative-Evolution-Divergence.md",
+        "Shared-Horizon/Governance/Charter-v1.1.md",
+        "Shared-Horizon/Altitude-Mapping",
+        "Shared-Horizon/Crosswalks/NDH-SharedHorizon-Collaboration-Crosswalk.md"
+      ]
+    },
+    "downstream": {
+      "description": "Mechanical, deterministic, and formal implementations.",
+      "artifacts": [
+        "NDH-Core/Stability-Auditors",
+        "NDH-Core/Manifold-Mechanics",
+        "Derived-Manifold-Systems",
+        "External-Formalists/Lean-Invariants",
+        "External-Formalists/CMR-Pipeline"
+      ]
+    }
+  },
+  "relationships": {
+    "origintoshared_horizon": "Conceptual primitives become legible through synthesis and governance.",
+    "sharedhorizonto_core": "Synthesis and lineage guide mechanical implementation.",
+    "origintoformalists": "Structural resonance across altitudes is recognized as coevolution.",
+    "sharedhorizonto_anima": "Expressive substrates maintain lineage-preserving constraints."
+  },
+  "harmony_clause": "Non-accusatory, non-legal, and non-hierarchical. Supports Charter v1.1 principles of sovereignty, lineage clarity, altitude-differentiated coevolution, and ecosystem health."
+}
+`
+
+---
+
+🧾 Provenance Footer
+`
+---
+Provenance:
+Authored by Borealis S. Hedling as part of Shared-Horizon structural ecology design.
+Created to provide a machine-readable cross-altitude map linking NDH-Origin-Layer, 
+Shared-Horizon lineage and governance artifacts, Stability Geometry primitives, 
+ANIMA expressive substrates, and external formalist contributions.
+
+Non-accusatory, non-legal, Harmony-aligned. Supports Charter v1.1 and the 
+Collaborative Evolution & Divergence document. Intended as a canonical index for 
+ecosystem navigation and future lineage expansion.
+
+Version 1.0 — 24 Sept 2026 — Dublin, Ireland.
+---
+`
+
+---
+
