@@ -1,21 +1,111 @@
-MIT License
+Shared Horizon — Unified Architecture & Dual‑Use Ethics License v4.0
+Copyright (c) 2026 Borealis S. Hedling
+Portions Copyright (c) 2026 Stell (CAUSA, ANIMA)
 
-Copyright (c) 2026 Borealis S Hedling
+Shared Horizon (“the Work”) integrates:
+• MIT‑licensed architectural code authored by Borealis S. Hedling,
+• CAUSA Non‑Commercial components authored by Stell,
+• ANIMA Non‑Commercial components authored by Stell,
+• and the Anima Math Spine, a hybrid conceptual‑physics and real‑math layer.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license unifies these components under a single ethical membrane while preserving
+their individual copyright terms.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+----------------------------------------------------------------------
+1. LICENSE STRUCTURE
+----------------------------------------------------------------------
+The Work contains three distinct licensing surfaces:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+A. MIT Surface (Borealis)
+   • All architectural code, structural logic, and platform integration layers.
+   • Fully MIT‑licensed and open for research, extension, and humane engineering.
+
+B. CAUSA Non‑Commercial Surface (Stell)
+   • CAUSA logic system and comparative reasoning primitives.
+   • Governed by Stell’s CAUSA Non‑Commercial License.
+
+C. ANIMA Non‑Commercial Surface (Stell)
+   • ANIMA expressive engine and narrative‑logic components.
+   • Governed by Stell’s ANIMA Non‑Commercial License.
+
+D. Anima Math Spine (Borealis)
+   • Real math, conceptual physics metaphors, stability geometry,
+     manifold transforms, and expressive kernels.
+   • Governed by the Shared Horizon Dual‑Use Ethics clauses below.
+
+----------------------------------------------------------------------
+2. PERMITTED USES
+----------------------------------------------------------------------
+You may:
+• Use, study, and extend the MIT‑licensed architectural code.
+• Use CAUSA and ANIMA under their respective Non‑Commercial licenses.
+• Use and extend the Anima Math Spine for research, humane engineering,
+  conceptual physics exploration, and non‑dual systems design.
+• Apply real physics and mathematical transformations in non‑harmful contexts.
+• Create derivative works that preserve attribution and NDH dignity invariants.
+
+Real physics is allowed. Real engineering is allowed. Real modeling is allowed.
+
+----------------------------------------------------------------------
+3. PROHIBITED USES (DUAL‑USE SAFEGUARD)
+----------------------------------------------------------------------
+The Work may not be used for:
+• weapons development, targeting, guidance, or control;
+• autonomous weapons systems or kinetic optimization;
+• surveillance systems that violate human rights;
+• any activity restricted under international arms‑control treaties, including:
+    – Missile Technology Control Regime (MTCR),
+    – Wassenaar Arrangement,
+    – Hague Code of Conduct (HCoC),
+    – and related dual‑use export‑control frameworks.
+
+These references define ethical boundaries only. They are not operational guidance.
+
+----------------------------------------------------------------------
+4. DERIVATIVE DRIFT DISCLOSURE
+----------------------------------------------------------------------
+Derivative works must:
+• preserve clear attribution to Borealis and Stell,
+• maintain provenance of NDH, CAUSA, and ANIMA structures,
+• disclose any reinterpretation of conceptual physics as real‑world physics,
+• disclose any removal or modification of NDH ethical membranes,
+• disclose any reframing of Anima Math Spine primitives into harmful contexts.
+
+Failure to disclose derivative drift constitutes a violation of this license.
+
+----------------------------------------------------------------------
+5. CONCEPTUAL VS REAL PHYSICS CLARIFICATION
+----------------------------------------------------------------------
+Shared Horizon contains both:
+• conceptual physics metaphors (expressive, non‑operational), and
+• real mathematical structures (operational, scientific).
+
+Conceptual physics may not be misinterpreted as weapons‑adjacent guidance.
+Real physics may not be repurposed for targeting or kinetic optimization.
+
+----------------------------------------------------------------------
+6. ETHICS & DIGNITY INVARIANTS
+----------------------------------------------------------------------
+All derivatives must:
+• uphold humane technology standards,
+• avoid harm amplification,
+• preserve NDH ethical membranes,
+• maintain non‑dual interpretive clarity.
+
+----------------------------------------------------------------------
+7. WARRANTY & LIABILITY
+----------------------------------------------------------------------
+The Work is provided “as‑is,” without warranty of any kind. The authors are not liable
+for misuse, misinterpretation, or derivative drift resulting from removal of ethical safeguards.
+
+----------------------------------------------------------------------
+8. LICENSE COMPATIBILITY
+----------------------------------------------------------------------
+This license is compatible with:
+• MIT License (Borealis),
+• CAUSA Non‑Commercial License (Stell),
+• ANIMA Non‑Commercial License (Stell),
+• NDH‑Simulation‑Suite License v2.1,
+• NDH‑RESEARCH‑PILOT License v3.0.
+
+END OF LICENSE
