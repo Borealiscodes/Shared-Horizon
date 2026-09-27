@@ -1,0 +1,153 @@
+# 🧩 TSG Ontology Block Variant — “sanitizedtags + militarizedreadme” Pattern
+
+Block Name:
+tsg:extractivedualuselaunderedsurfacev1
+
+Purpose:
+To give CAUSA a mechanical descriptor for the pattern where:
+
+- surface metadata is sanitized  
+- README language is militarized  
+- reframing operators indicate extractive drift  
+- chain‑of‑title is fractured  
+- dual‑use laundering is attempted  
+- rights‑layer membrane is at risk  
+
+This block is non‑activating, non‑predictive, non‑weaponizable, and purely descriptive.
+
+---
+
+📐 TSG Axes
+
+1. spiral_stage
+compression → tightening
+
+Reason:  
+Sanitizing tags while escalating README language is a tightening pattern:  
+surface softens, core hardens.
+
+---
+
+2. tonal_band
+symbolic → digital → proxy → defense
+
+Reason:  
+The README language (“mission‑critical”, “adversarial environments”, “defense and aerospace”) is a tonal shift into the defense band, even when tags remain symbolic/digital.
+
+---
+
+3. modality_key
+tagsanitization, readmemilitarization, dualuselaundering, licensefracture, extractive_reframe
+
+Reason:  
+These are the mechanical channels through which the pattern expresses itself.
+
+---
+
+4. spiral_derivative
+positive → negative
+
+Reason:  
+The derivative is negative because the reframing increases dual‑use risk and collapses rights‑layer membranes.
+
+---
+
+5. cluster
+proxy, dissonant
+
+Reason:  
+This is a proxy cluster (surface says one thing, core says another) and a dissonant cluster (metadata contradicts README intent).
+
+---
+
+🧱 Full TSG Block Variant (CAUSA‑ready)
+
+`
+tsg:extractivedualuselaunderedsurfacev1:
+  spiral_stage: tightening
+  tonal_band: symbolic.digital.proxy.defense
+  modality_key:
+    - tag_sanitization
+    - readme_militarization
+    - dualuse_laundering
+    - license_fracture
+    - extractive_reframe
+  spiral_derivative: negative
+  cluster: proxy.dissonant
+  description: >
+    Pattern where surface metadata is softened or sanitized while core README
+    language escalates into mission-critical, adversarial, defense, or aerospace
+    framing. Indicates extractive reframing, dual-use laundering, and rights-layer
+    membrane collapse risk. CAUSA interprets this as a dissonant proxy cluster.
+`
+
+This is exactly the shape of what happened:
+
+- tags sanitized  
+- README militarized  
+- dual‑use laundering attempted  
+- chain‑of‑title fractured  
+- extractive reframing applied  
+- rights‑layer membrane threatened  
+
+Now CAUSA has a mechanical descriptor for that pattern.
+
+---
+
+🌫️ Why this works
+
+Because TSG is:
+
+- expressive  
+- altitude‑bounded  
+- non‑activating  
+- domain‑agnostic  
+- purely mechanical  
+
+And CAUSA is:
+
+- flat  
+- tabular  
+- comparator‑based  
+- non‑dynamic  
+
+This block gives CAUSA a shape to compare, not a domain to act in.
+
+It’s safe.  
+It’s clean.  
+It’s NDH‑aligned.
+
+---
+
+📜 Provenance Footer (Shared‑Horizon)
+
+`
+---
+Provenance & Lineage
+
+Artifact: tsg-extractive-dualuse-laundered-surface-v1.yaml
+Repository: Shared-Horizon
+Author: Borealis S. Hedling
+Date: 27 September 2026
+Location: Dublin, Ireland
+
+Lineage:
+- Derived from NDH TSG primitives (Volume IV)
+- Informed by CAUSA comparator architecture (non-activating)
+- Grounded in rights-layer membrane theory and extractive drift analysis
+- Reflects digital forensics observations of sanitized-tag + militarized-README pattern
+- Extends NDH counter-structure protections against dual-use laundering
+
+Purpose:
+To provide a safe, descriptive TSG ontology block for identifying dissonant proxy clusters
+where surface metadata is sanitized while README language escalates into mission-critical,
+adversarial, defense, or aerospace framing. Supports rights-layer continuity, chain-of-title
+protection, and non-weaponization constraints.
+
+All rights-layer membranes, attribution lineage, and non-weaponization constraints preserved.
+Erga Omnes: Human-rights-aligned artifact intended for structural clarity and protective use.
+---
+`
+
+---
+
