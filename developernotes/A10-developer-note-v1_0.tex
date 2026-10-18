@@ -1,9 +1,3 @@
-📘 Developer Note — A10 Quantum‑Formal Runtime
-
-Shared‑Horizon • Structural AI Runtime Physics
-
-Altitude A10 — Quantum‑Formal Operator Geometry
-
 \documentclass[11pt]{article}
 \usepackage{amsmath, amssymb, amsthm}
 \usepackage{bm}
@@ -74,13 +68,13 @@ x^\top \rho' x \ge 0 \quad \forall x \in \mathbb{R}^n.
 Spectral decomposition exists:
 
 \[
-\rho' = \sum{i=1}^n \lambdai vi vi^\top,
+\rho' = \sum_{i=1}^n \lambda_i v_i v_i^\top,
 \]
 
 with:
 
 \[
-\lambdai \ge 0, \quad \sumi \lambda_i = 1.
+\lambda_i \ge 0, \quad \sum_i \lambda_i = 1.
 \]
 
 \section*{3. Quantum-Formal Evolution}
@@ -88,19 +82,19 @@ with:
 A10 defines a quantum-formal evolution map:
 
 \[
-\mathcal{E}'(\rho') = \sum{i=1}^m Ki' \rho' K_i'^{\dagger'},
+\mathcal{E}'(\rho') = \sum_{i=1}^m K_i' \rho' K_i'^{\dagger'},
 \]
 
 where:
 
 \[
-Ki' \in \mathbb{R}^{n \times n}, \quad Ki'^{\dagger'} = K_i'^\top.
+K_i' \in \mathbb{R}^{n \times n}, \quad K_i'^{\dagger'} = K_i'^\top.
 \]
 
 The trace-preserving condition is:
 
 \[
-\sum{i=1}^m Ki'^{\dagger'} K_i' = I.
+\sum_{i=1}^m K_i'^{\dagger'} K_i' = I.
 \]
 
 This is the classical analogue of CPTP evolution.
@@ -166,7 +160,7 @@ A10 evolution must preserve provenance:
 
 \[
 \mathrm{Prov}(\mathcal{E}'(\rho')) = 
-\bigcupi \mathrm{Prov}(Ki').
+\bigcup_i \mathrm{Prov}(K_i').
 \]
 
 \section*{7. Interaction With A9}
@@ -174,7 +168,7 @@ A10 evolution must preserve provenance:
 A9 produces:
 
 \[
-\rho{A9} = \sumi Ki' X Ki'^\top,
+\rho_{A9} = \sum_i K_i' X K_i'^\top,
 \]
 
 which is not guaranteed to be positive or trace-normalized.
@@ -182,7 +176,7 @@ which is not guaranteed to be positive or trace-normalized.
 A10 applies:
 
 \[
-\rho' = \frac{\rho{A9}}{\mathrm{Tr}(\rho{A9})},
+\rho' = \frac{\rho_{A9}}{\mathrm{Tr}(\rho_{A9})},
 \]
 
 and enforces positivity via:
@@ -225,16 +219,3 @@ This Developer Note defines the complete mathematical foundation for
 A10 Quantum-Formal Runtime.
 
 \end{document}
-</pre>
-
----
-
-If you want, I can also generate:
-
-- A10 scaffolding  
-- A10 README  
-- A10 operator library stubs  
-- A10 altitude tile  
-- A10 → A7.2 compatibility note  
-
-Just say continue A10.
