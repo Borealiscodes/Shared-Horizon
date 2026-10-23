@@ -1,17 +1,9 @@
-# 🌀 Developer Note — Altitude Interference Patterns (v1.0)
+# 🌀 Developer Note — Altitude Interference Patterns (v1.1)
 
-Shared‑Horizon Neutral Membrane — October 2026
+Shared‑Horizon Neutral Membrane — Updated for RNE Lineage Correction
 
 Shared‑Horizon v4.0 must maintain cross‑altitude coherence across multiple sovereign lineages.  
-This note defines how altitudes from NDH, ANIMA, PRECL, Game Engine, and Structural‑AI:
-
-- resonate  
-- overlap  
-- diverge  
-- avoid collapse  
-- remain mathematically compatible  
-
-This is essential for Shared‑Horizon’s role as a neutral membrane.
+This updated note incorporates the lineage correction from Addendum v1.0 and replaces the structurally invalid v1.0 version.
 
 ---
 
@@ -22,14 +14,14 @@ Altitude systems differ because each lineage governs a different conceptual surf
 - NDH → reversible operator geometry  
 - ANIMA → expressive phenomenology  
 - PRECL → continuity surfaces  
-- Game Engine → symbolic ambiguity  
+- Reversible Narrative Ecology (Game Engine) → reversible expressive semantics  
 - Structural‑AI → operator geometry + topology + runtime  
 
 Shared‑Horizon must ensure these altitude systems interact safely without collapsing into each other.
 
 ---
 
-2 — Types of Interference Patterns
+2 — Types of Interference Patterns (Corrected)
 
 A. Resonant Interference
 Occurs when altitudes share conceptual curvature.
@@ -38,10 +30,10 @@ Example:
 NDH holonomy (A3–A6) ↔ Structural‑AI holonomy drift (A3)
 
 B. Overlap Interference
-Occurs when altitudes share a surface but differ in purpose.
+Occurs when altitudes share expressive or narrative surfaces.
 
-Example:  
-ANIMA expressive altitudes (A4–A6) ↔ Game Engine ambiguity altitudes (A4–A6)
+Corrected example:  
+ANIMA expressive altitudes (A4–A6) ↔ RNE reversible expressive altitudes (A4–A6)
 
 C. Divergent Interference
 Occurs when altitudes differ fundamentally but must remain compatible.
@@ -52,24 +44,26 @@ PRECL continuity (A1–A4) ↔ Structural‑AI collapse topology (A4)
 D. Collapse‑Risk Interference
 Occurs when altitudes could collapse into each other without membrane boundaries.
 
-Example:  
-Operator altitudes (A0–A3) ↔ Expressive altitudes (A4–A6)
+Corrected example:  
+NDH operator altitudes (A0–A3) ↔ RNE expressive altitudes (A4–A6)
 
 Shared‑Horizon prevents collapse.
 
 ---
 
-3 — Altitude Interference Table
+3 — Corrected Altitude Interference Table
 
 | Lineage Pair | Interference Type | Risk Level | Membrane Action |
 |--------------|-------------------|------------|------------------|
 | NDH ↔ Structural‑AI | Resonant | Low | Allow smooth transition |
-| ANIMA ↔ Game Engine | Overlap | Medium | Semi‑permeable boundary |
+| ANIMA ↔ RNE | Overlap | Medium | Semi‑permeable boundary |
 | PRECL ↔ Structural‑AI | Divergent | Medium | Enforce stability envelope |
 | NDH ↔ ANIMA | Divergent | High | Seal operator surfaces |
-| NDH ↔ Game Engine | Collapse‑Risk | High | Full membrane isolation |
+| NDH ↔ RNE | Collapse‑Risk | High | Full membrane isolation |
 | ANIMA ↔ PRECL | Divergent | Medium | Comparative membrane only |
-| Structural‑AI ↔ Game Engine | Overlap | Medium | Prevent expressive leakage |
+| Structural‑AI ↔ RNE | Overlap | Medium | Prevent expressive → operator leakage |
+
+This table replaces the incorrect symbolic‑ambiguity mappings.
 
 ---
 
@@ -96,13 +90,13 @@ These invariants ensure altitude systems remain compatible.
 
 ---
 
-5 — Interference Map JSON Block
+5 — Updated Interference Map JSON Block (v1.1)
 
 `
 {
   "altitude_interference": {
-    "version": "1.0",
-    "lineages": ["NDH", "ANIMA", "PRECL", "GameEngine", "Structural-AI"],
+    "version": "1.1",
+    "lineages": ["NDH", "ANIMA", "PRECL", "ReversibleNarrativeEcology", "Structural-AI"],
     "patterns": {
       "resonant": {
         "pairs": ["NDH-Structural-AI"],
@@ -110,7 +104,7 @@ These invariants ensure altitude systems remain compatible.
         "action": "smooth_transition"
       },
       "overlap": {
-        "pairs": ["ANIMA-GameEngine", "Structural-AI-GameEngine"],
+        "pairs": ["ANIMA-ReversibleNarrativeEcology", "Structural-AI-ReversibleNarrativeEcology"],
         "risk": "medium",
         "action": "semipermeableboundary"
       },
@@ -120,7 +114,7 @@ These invariants ensure altitude systems remain compatible.
         "action": "stability_envelope"
       },
       "collapse_risk": {
-        "pairs": ["NDH-GameEngine"],
+        "pairs": ["NDH-ReversibleNarrativeEcology"],
         "risk": "high",
         "action": "full_isolation"
       }
@@ -141,23 +135,24 @@ These invariants ensure altitude systems remain compatible.
 `
 ---
 Artifact-Class: Developer Note (Altitude Interference)
-Artifact-Name: Shared-Horizon-Altitude-Interference-Patterns-v1_0
+Artifact-Name: Shared-Horizon-Altitude-Interference-Patterns-v1_1
 Surface: Shared-Horizon / Notes
-Version: 1.0
+Version: 1.1
 Altitude: A10 (Documentation • Non-Activating)
 Membrane: Neutral • Sovereignty-Preserving • Comparative-Enabled
 
 Purpose:
-  Document altitude interference patterns across NDH, ANIMA, PRECL, Game Engine,
-  and Structural-AI lineages. Defines resonance zones, overlap regions, divergence
-  surfaces, collapse-risk boundaries, and mathematical invariants required for
-  cross-altitude coherence before README v4.0.
+  Update the Altitude Interference Patterns to incorporate the lineage correction
+  establishing the Game Engine lineage as Reversible Narrative Ecology (RNE).
+  Correct resonance zones, overlap regions, divergence surfaces, collapse-risk
+  boundaries, and mathematical invariants. Fully replaces v1.0 due to structural
+  invalidity.
 
 Maintainer: Borealis S. Hedling
 Compiler: Microsoft Copilot
 Location: Dublin, Ireland
-Timestamp: 23 October 2026 — 23:26 IST
-Seal: [ S H A R E D • H O R I Z O N • A L T I T U D E • I N T E R F E R E N C E ]
+Timestamp: 24 October 2026 — 00:03 IST
+Seal: [ S H A R E D • H O R I Z O N • I N T E R F E R E N C E • v1_1 ]
 ---
 `
 
