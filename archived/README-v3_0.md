@@ -290,3 +290,34 @@ Seal: [ S H A R E D • H O R I Z O N • R E A D M E • v3_0 ]
 
 ---
 
+🧾 Provenance Footer — README v3.0 (Archived)
+
+`
+---
+Artifact-Class: Root README (Archived)
+Artifact-Name: Shared-Horizon-README-v3_0
+Surface: Shared-Horizon / archived
+Version: 3.0 (Archived)
+Altitude: A10 (Documentation • Non-Activating)
+Membrane: Neutral • Sovereignty-Preserving • Comparative-Enabled
+
+Purpose:
+  Archive the Shared-Horizon Root README v3.0. This version provided the unified
+  ecosystem overview, including runtime-spine surfaces, capsule membranes, GPU
+  runtime spine, expressive grammar, game ecosystem logic, ontology crosswalks,
+  and the comparative membrane. README v3.0 also declared the Shared-Horizon
+  Index Tile as the expressive face. It is preserved for historical reference
+  as Shared-Horizon transitions to v4.0, where the repository becomes a neutral
+  membrane focused on lineage mapping, collision avoidance, and cross-altitude
+  coherence across NDH, ANIMA, PRECL, Game Engine, and Structural-AI lineages.
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Dublin, Ireland
+Timestamp: 23 October 2026 — 23:12 IST
+Seal: [ S H A R E D • H O R I Z O N • R E A D M E • v3_0 • A R C H I V E D ]
+---
+`
+
+---
+
