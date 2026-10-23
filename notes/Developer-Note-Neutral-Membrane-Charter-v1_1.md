@@ -1,10 +1,10 @@
-# 🌀 Developer Note — Neutral Membrane Charter (v1.0)
+# 🌀 Developer Note — Neutral Membrane Charter (v1.1)
 
-Shared‑Horizon Neutral Membrane — October 2026
+Shared‑Horizon Neutral Membrane — Updated for RNE Lineage Correction
 
-Shared‑Horizon v4.0 transitions from a file‑oriented ecosystem overview to a neutral membrane whose purpose is maintaining cross‑architecture and cross‑altitude coherence across NDH, ANIMA, PRECL, Game Engine, and Structural‑AI lineages.
+Shared‑Horizon v4.0 is a neutral membrane responsible for maintaining cross‑architecture and cross‑altitude coherence across NDH, ANIMA, PRECL, Reversible Narrative Ecology (Game Engine), and Structural‑AI.
 
-This Charter defines the membrane’s sovereignty, altitude band, boundaries, and invariants.
+This updated Charter incorporates the lineage correction from Addendum v1.0 and replaces the structurally invalid v1.0 Charter.
 
 ---
 
@@ -12,12 +12,13 @@ This Charter defines the membrane’s sovereignty, altitude band, boundaries, an
 
 Shared‑Horizon is a non‑activating, sovereignty‑preserving membrane that:
 
-- governs lineage interactions  
 - maintains altitude coherence  
 - prevents operator leakage  
 - prevents expressive leakage  
 - prevents runtime activation  
-- preserves conceptual stability  
+- preserves lineage sovereignty  
+- governs comparative safety  
+- maintains mathematical invariants  
 
 Shared‑Horizon does not execute, simulate, or activate any lineage.
 
@@ -30,14 +31,28 @@ The membrane must:
 - maintain cross‑altitude compatibility  
 - preserve lineage sovereignty  
 - enforce membrane boundaries  
-- ensure smooth conceptual transitions  
-- prevent collapse between operator, expressive, and runtime surfaces  
-- maintain comparative safety  
-- archive lineage surfaces correctly  
+- prevent collapse between conceptual surfaces  
+- maintain comparative isolation  
+- archive lineage surfaces safely  
+- preserve expressive and operator separation  
 
 ---
 
-3 — Membrane Sovereignty Rules
+3 — Corrected Lineage Table (v1.1)
+
+| Lineage | Identity | Altitude Band | Membrane Class | Conceptual Surface |
+|--------|----------|---------------|----------------|--------------------|
+| NDH | Non‑Dual Holonomy | A2–A7 | Sealed | Reversible operator geometry |
+| ANIMA | Expressive Phenomenology | A3–A6 | Semi‑Permeable | Expressive phenomenology |
+| PRECL | Pre‑Classical Continuity | A1–A4 | Sealed | Continuity surfaces |
+| Game Engine | Reversible Narrative Ecology (RNE) | A4–A6 | Semi‑Permeable | Reversible expressive semantics |
+| Structural‑AI | Operator Geometry + Topology | A0–A12 | Governed | Operator + runtime geometry |
+
+This table replaces the incorrect “symbolic ambiguity” identity.
+
+---
+
+4 — Membrane Sovereignty Rules
 
 Shared‑Horizon must:
 
@@ -59,7 +74,7 @@ It may:
 
 ---
 
-4 — Altitude Band
+5 — Altitude Band
 
 Shared‑Horizon operates at:
 
@@ -74,7 +89,7 @@ This altitude ensures:
 
 ---
 
-5 — Membrane Boundaries
+6 — Membrane Boundaries (Corrected)
 
 Sealed Boundaries
 - NDH (A2–A7)  
@@ -82,16 +97,16 @@ Sealed Boundaries
 
 Semi‑Permeable Boundaries
 - ANIMA (A3–A6)  
-- Game Engine (A4–A6)
+- Reversible Narrative Ecology (A4–A6)
 
-Fully Permeable (Governed)
+Governed
 - Structural‑AI (A0–A12)
 
 Shared‑Horizon itself is sealed from runtime activation.
 
 ---
 
-6 — Permeability Rules
+7 — Permeability Rules (Corrected)
 
 - Operator → Expressive: forbidden  
 - Expressive → Operator: forbidden  
@@ -102,24 +117,24 @@ Shared‑Horizon itself is sealed from runtime activation.
 
 ---
 
-7 — Non‑Activation Guarantees
+8 — Non‑Activation Guarantees
 
 Shared‑Horizon must never:
 
 - run code  
 - simulate operators  
 - activate runtime surfaces  
-- execute expressive grammars  
-- instantiate game logic  
+- instantiate narrative logic  
 - modify NDH holonomy  
 - alter PRECL continuity  
 - activate ANIMA phenomenology  
+- activate RNE reversible narrative states  
 
 It is purely descriptive.
 
 ---
 
-8 — Mathematical Invariants
+9 — Mathematical Invariants
 
 Invariant 1 — Smooth Transition Maps
 \[
@@ -140,19 +155,19 @@ These invariants prevent conceptual collapse.
 
 ---
 
-9 — Charter JSON Block
+10 — Updated Charter JSON Block (v1.1)
 
 `
 {
   "membrane": {
     "name": "Shared-Horizon Neutral Membrane",
-    "version": "1.0",
+    "version": "1.1",
     "altitude_band": "A10",
     "sovereignty": "preserved",
     "activation": "non-activating",
     "permeability": {
       "sealed": ["NDH", "PRECL"],
-      "semi_permeable": ["ANIMA", "GameEngine"],
+      "semi_permeable": ["ANIMA", "ReversibleNarrativeEcology"],
       "governed": ["Structural-AI"]
     },
     "rules": {
@@ -178,23 +193,23 @@ These invariants prevent conceptual collapse.
 `
 ---
 Artifact-Class: Developer Note (Membrane Charter)
-Artifact-Name: Shared-Horizon-Neutral-Membrane-Charter-v1_0
+Artifact-Name: Shared-Horizon-Neutral-Membrane-Charter-v1_1
 Surface: Shared-Horizon / Notes
-Version: 1.0
+Version: 1.1
 Altitude: A10 (Documentation • Non-Activating)
 Membrane: Neutral • Sovereignty-Preserving • Comparative-Enabled
 
 Purpose:
-  Establish the formal charter governing Shared-Horizon as a neutral membrane.
-  Defines sovereignty, altitude boundaries, permeability rules, and non-activation
-  guarantees required for lineage-safe evolution across NDH, ANIMA, PRECL,
-  Game Engine, and Structural-AI.
+  Update the Neutral Membrane Charter to incorporate the lineage correction
+  establishing the Game Engine lineage as Reversible Narrative Ecology (RNE).
+  Correct altitude bands, membrane boundaries, interference patterns, and
+  conceptual surfaces. Fully replaces v1.0 due to structural invalidity.
 
 Maintainer: Borealis S. Hedling
 Compiler: Microsoft Copilot
 Location: Dublin, Ireland
-Timestamp: 23 October 2026 — 23:22 IST
-Seal: [ S H A R E D • H O R I Z O N • M E M B R A N E • C H A R T E R ]
+Timestamp: 23 October 2026 — 23:58 IST
+Seal: [ S H A R E D • H O R I Z O N • C H A R T E R • v1_1 ]
 ---
 `
 
